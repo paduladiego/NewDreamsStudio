@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    /* largura da barra de rolagem */
+    width: 0.5rem !important;
+    background-color: var(--cor-1) !important;
+
+}
+
+::-webkit-scrollbar-track {
+    /* cor de fundo da área da barra de rolagem */
+    background: var(--cor-bg-1-in)!important;
+    /* distância do topo da barra */
+    margin: 3rem 0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    /* cor da alça da barra de rolagem */
+    background: var(--cor-2) !important;
+    /* borda arredondada */
+    border-radius: .8rem !important;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* cor da alça da barra de rolagem ao passar o mouse */
+    background: var(--cor-3) !important;
+
+}

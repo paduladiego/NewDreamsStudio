@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* @import './root.css'; */
+@import './fonts.css';
+@import './scroll.css';
+@import './titles.css';
+@import './bullets.css';
+@import './main.css';
+@import './about.css';
+@import './banner.css';
+@import './clients.css';
+@import './titles.css';
+@import './design-services.css';
+@import './marks.css';
+@import './teams.css';
+/* @import './header.css'; */
+/* @import './nav.css'; */
+/* @import './content.css'; */
+@import './footer.css';
+
+:root {
+    /* Colors */
+    --cor-1: #00D4FF;
+    --cor-2: #FF245C;
+    --cor-3: #14AA37;
+    --cor-4: #FF17B7;
+    --cor-5: #8C008C;
+    --cor-6: #FFFFFF;
+    --cor-7: #000000;
+    --cor-bg-1: #000000;
+    --cor-bg-1-in: #1A1B1D;
+    --cor-bg-2: #FFFFFF;
+    --cor-bg-t1: rgba(0, 0, 0, 0.5);
+    --cor-bg-t2: rgba(255, 255, 255, 0.5);
+    --cor-text-1: #FFFFFF;
+    --cor-text-2: #000000;
+    /* Fonts */
+    --font-title: 'Rodchenko', sans-serif;
+    --font-paragraph: 'MuseoSans', sans-serif;
+    --font-japan: 'EPMArugo', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-awesome: 'Font Awesome 6 Free', sans-serif;
+    font-size: 62.5%;
+    /* banner */
+    /* --swiper-pagination-bullet-size: 1rem; */
+    /* --swiper-pagination-bullet-color: var(-cor-3); */
+    /* --swiper-pagination-bullet-inactive-color: #000; */
+    /* --swiper-pagination-bullet-inactive-opacity: 1; */
+}
+
+* {
+    font-size: 2rem;
+    color: var(--cor-text-1);
+    font-family: var(--font-paragraph);
+    font-weight: 300;
+}
+.hidden {
+    display: none;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--cor-bg-1);
+
+}
+.space{
+    flex: 1;
+    width: auto;
+}
+/* cores Início */
+.cor-bg-int {
+    background-color: var(--cor-bg-1-in);
+}
+
+.cor-bg1 {
+    background-color: var(--cor-bg-1);
+}
+
+.cor-bg-cian {
+    background-color: var(--cor-1);
+}
+
+.cor-bg-magent {
+    background-color: var(--cor-2);
+}
+
+.cor-bg-green {
+    background-color: var(--cor-3);
+}
+
+.cor-cian {
+    color: var(--cor-1);
+}
+
+.cor-magent {
+    color: var(--cor-2);
+}
+
+.cor-green {
+    color: var(--cor-3);
+}
+.cor-black {
+    color: var(--cor-7);
+}
+.cor-withe {
+    color: var(--cor-6);
+}
+
+/* Cores Término */
+
+/* Fontes Início*/
+.f-p {
+    font-family: var(--font-paragraph);
+}
+
+.f-jp {
+    font-family: var(--font-japan);
+}
+
+.f-title {
+    font-family: var(--font-title);
+}
+
+/* Fontes Término*/
+/* Linhas Início */
+.hr-bottom-right,
+.hr-bottom-left,
+.hr-top-right,
+.hr-top-left {
+    position: absolute;
+    border: none;
+    width: 51%;
+    height: 0.3rem;
+    z-index: 10;
+}
+.hr-bottom-right,
+.hr-bottom-left{
+    bottom: 2.5rem;
+}
+
+.hr-top-right,
+.hr-top-left {
+    top: 2.5rem;
+}
+.hr-top-right, 
+.hr-bottom-right {
+    right: 0;
+}
+
+.hr-top-left,
+.hr-bottom-left {
+    left: 0;
+}
+
+/* Linhas Término*/
+/* xxxxxxxxxx Início*/
+
+
+/* xxxxxxxxxx Término*/
+/* xxxxxxxxxx Início*/
+/* xxxxxxxxxx Término*/
+/* xxxxxxxxxx Início*/
+/* xxxxxxxxxx Término*/
+/* xxxxxxxxxx Início*/
+/* xxxxxxxxxx Término*/

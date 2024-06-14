@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/img/ico/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#101010">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Favicon -->
+        <title>NewDrams</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                touch-action: none;
+            }
+
+            body {
+                height: 100vh;
+                background-color: black;
+                background-image: url(https://web.archive.org/web/20240112132253im_/https://newdreams.xyz/wp-content/uploads/2019/05/1-2k-menor.jpg);
+                background-repeat: no-repeat;
+
+            }
+
+            h1 {
+                width: 40vh;
+                animation: glitch 2s ease-in-out infinite;
+            }
+
+            main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* width: 100%; */
+                height: 100%;
+                z-index: 10;
+            }
+                        /* Define the glitch animation*/
+                        @keyframes glitch {
+                0% {filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);}
+                10% {filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);}
+                20% {filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);}
+                30% {filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);}
+                40% {filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);}
+                100% {filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);}
+            } 
+            .video {
+                width: 100%;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                height: auto;
+                min-height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <h1>
+                <glitch-image src="assets/img/logo-newdreams-fit.svg" alt="Logo NewDrams"></glitch-image>
+            </h1>
+        </main>
+
+        <video class="video" data-aid="HEADER_VIDEO" poster="./assets/media/Japan_1.1_R.mp4" autoplay="" loop="" muted=""
+        playsinline=""
+        src="./assets/media/Japan_1.1_R.mp4"></video>
+
+        <script src="https://unpkg.com/@uit/glitch-image/dist/glitch-image.js" type="module"></script>
+    </body>
+
+</html>

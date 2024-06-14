@@ -1,0 +1,16 @@
+.bullets{
+    display: flex;
+    position: relative;
+    height:76.8rem;
+    /* height: max-width(100vh); */
+    width: 100vw;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.bullets_logos{
+    flex-grow: 1;
+    width: auto;
+}

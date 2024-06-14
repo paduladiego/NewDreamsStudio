@@ -1,0 +1,44 @@
+.banner{
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+.banner h5{
+    position: absolute;
+    bottom: 5rem;
+    left: 15rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    
+}
+.banner img{
+    width: 100vw;
+}
+section.banner .swiper-pagination-bullet {
+    border-radius: 0;
+    background-color: var(--cor-3);
+    opacity: 0.6;
+    width: 1rem;
+    height: 1rem;
+
+}
+section.banner .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+div#swiper-next,
+div#swiper-prev{
+    position: absolute;
+    top: 2.5rem;
+    width: 15%;
+    height: 100%;
+    color: transparent;
+}
+div#swiper-next:hover{
+    cursor: url(../assets/img/icon-nd-arrow-next.svg), auto !important;
+
+}
+div#swiper-prev:hover{
+    cursor: url(../assets/img/icon-nd-arrow-prev.svg), auto !important;
+    /* rotate: 90deg; */
+
+}

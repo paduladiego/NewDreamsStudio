@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+img {
+    width: 50vh;
+    animation: glitch 2s ease-in-out infinite;
+    /* animation: noise 2s ease-in-out infinite; */
+    animation: signalLoss 2s ease-in-out infinite;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height: 100%;
+}
+
+#logo {
+    position: relative;
+    /* adiciona posição relativa para que os pseudo-elementos sejam posicionados corretamente */
+}
+
+#logo:before,
+#logo:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/img/logo-newdreams-fit.svg");
+    /* use a mesma imagem como background */
+    background-size: cover;
+    /* animation: glitch 2s infinite; adiciona animação glitch */
+}
+
+#logo:before {
+    animation-delay: 0.5s;
+    /* adiciona delay para que a animação seja desincronizada */
+}
+
+@keyframes signalLoss {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+        transform: translate(0, 0);
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);
+        transform: skew(0deg, 0deg);
+    }
+
+    10% {
+        filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);
+    }
+
+    20% {
+        opacity: 0.5;
+        transform: translateY(-10%);
+        transform: translate(-5px, 5px);
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);
+
+
+    }
+
+    30% {
+        filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);
+    }
+
+    40% {
+        opacity: 0.2;
+        transform: translateY(10%);
+        transform: skew(5deg, -5deg);
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);
+        transform: translate(5px, -5px);
+
+    }
+
+    60% {
+        opacity: 0.5;
+        transform: skew(-5deg, 5deg);
+
+    }
+
+    80% {
+        opacity: 1;
+        transform: translate(-5px, 5px);
+        transform: skew(5deg, 5deg);
+
+    }
+
+    100% {
+        opacity: 0.5;
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);
+
+    }
+}

@@ -1,0 +1,43 @@
+.titles-top,
+.titles-bottom {
+    display: flex;
+    min-width: 25rem;
+    height: 100%;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.titles-top {
+    padding-right: 5rem;
+    padding-top: 10rem;
+    align-items: flex-start;
+}
+
+.titles-bottom {
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+}
+
+.titles-top h2,
+.titles-bottom h2 {
+    font-size: 9.6rem;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+}
+
+.titles-top h3,
+.titles-bottom h3 {
+    font-size: 5rem;
+    position: absolute;
+}
+
+.titles-top h3 {
+    top: 8.7rem;
+    margin-right: -1.95rem;
+}
+
+.titles-bottom h3 {
+    bottom: 27rem;
+    margin-right: -2.3rem;
+}
