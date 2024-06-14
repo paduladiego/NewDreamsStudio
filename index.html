@@ -263,58 +263,82 @@
             </div>
         </section>
         <footer class="footer" id="footer">
-            <section class="footer_form_title">
-                <h2 class="f-title">CONTATO</h2>
-                <h3 class="f-jp">連<br>絡</h3>
-            
-            <form class="form" autocomplete="off" action="https://newdreams.xyz/" method="post">
-                <div>
-                    <label for="name"><i class="fa-solid fa-user"></i></label>
-                    <input aria-label="Nome" type="text" name="nd_form1_text1" value="" placeholder="Nome *"
-                        data-required="true" aria-required="true" nd-id="id0">
-                    <div class="nd-form-state">Preencha esse campo</div>
+            <section class="footer_form">
+                <div class="footer_form_title">
+                    <h2 class="f-title cor-white">CONTATO</h2>
+                    <h3 class="f-jp cor-green">連<br>絡</h3>
+                </div>
 
-                </div>
-                <div>
-                    <label for="email"><i class="fa-solid fa-envelope"></i></i></label>
-                    <input aria-label="E-mail" type="text" name="nd_form1_text2" value="" placeholder="E-mail *"
-                        data-required="true" aria-required="true" d-id="id1">
-                    <div class="nd-form-state hid">Preencha esse campo</div>
-                </div>
-                <div>
-                    <label for="phone"><i class="fa-solid fa-phone"></i></label>
-                    <input aria-label="Telefone" type="text" name="nd_form1_text3" value="" placeholder="Telefone"
-                        wfd-id="id2">
-                    <div class="w-form-row-state">Preencha esse campo</div>
+                <form action="https://newdreams.xyz/" autocomplete="off" method="post" id="form">
+                    <div class="form-container">
+                        <label for="name"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" name="Nome" id="id0" placeholder="Nome *" required>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Campo obrigatório</small>
+                    </div>
 
-                </div>
-                <div>
-                    <label for="mensage"><i class="fa-solid fa-pencil"></i></label>
-                    <textarea aria-label="Mensagem" name="nd_form1_textarea1" placeholder="Mensagem *"
-                        data-required="true" aria-required="true"></textarea>
-                    <div class="w-form-row-state">Preencha esse campo</div>
-                </div>
-                <div class="w-form-row-field">
-                    <button class="nd-btn" aria-label="ENVIAR" type="submit">
-                        ENVIAR
-                    </button>
-                </div>
+                </form>
+
+                <form class="form" autocomplete="off" action="https://newdreams.xyz/" method="post">
+                    <div>
+                        <label for="name"><i class="fa-solid fa-user"></i></label>
+                        <input aria-label="Nome" type="text" name="nd_form1_text1" value="" placeholder="Nome *"
+                            data-required="true" aria-required="true" id="id0">
+                        <div class="nd-form-state">Preencha esse campo</div>
+                        <input type="text" name="" id="">
+
+                    </div>
+                    <div>
+                        <label for="email"><i class="fa-solid fa-envelope"></i></i></label>
+                        <input aria-label="E-mail" type="text" name="nd_form1_text2" value="" placeholder="E-mail *"
+                            data-required="true" aria-required="true" id="id1">
+                        <div class="nd-form-state hid">Preencha esse campo</div>
+                    </div>
+                    <div>
+                        <label for="phone"><i class="fa-solid fa-phone"></i></label>
+                        <input aria-label="Telefone" type="text" name="nd_form1_text3" value="" placeholder="Telefone"
+                            id="id2">
+                        <div class="w-form-row-state">Preencha esse campo</div>
+
+                    </div>
+                    <div>
+                        <label for="mensage"><i class="fa-solid fa-pencil"></i></label>
+                        <textarea aria-label="Mensagem" name="nd_form1_textarea1" placeholder="Mensagem *"
+                            data-required="true" aria-required="true"></textarea>
+                        <div class="w-form-row-state">Preencha esse campo</div>
+                    </div>
+                    <div class="w-form-row-field">
+                        <button class="nd-btn" aria-label="ENVIAR" type="submit">
+                            ENVIAR
+                        </button>
+                    </div>
             </section>
             </form>
             <section class="footer_info">
                 <p>NewDreams | SÃO PAULO</p>
-                    <>Rua Cincinato Braga, 439, SL 172 – Bela Vista, SP, Brasil |&nbsp; +55 11 9 4245 0730 | <a href="mailto:yu@newdreams.xyz">yu@newdreams.xyz</a></p>
-                    <p>NewDreams | PRAIA GRANDE<br>
-                    Rua Chile, 693, SL 103 Guilhermina, SP, Brasil | +55 11 9 6369 1915 | <a href="mailto:dula@newdreams.xyz">dula@newdreams.xyz</a></span></p>
-                    <p>NewDreams | TOKYO<br>
-                    <span style="font-size: 10pt;">Shibuya City, 渋谷区, Japan | <a href="mailto:kenji.kirara@newdreams.xyz">kenji.kihara@newdreams.xyz</a></p>
-                    <p><a href="mailto:hello@newdreams.xyz">hello@newdreams.xyz</a></p>
-                    <p>DESIRE | SÃO PAULO<br>
-                    Rua Condessa do Pinhal, 188 – Parque Colonial, SP, Brasil | <a href="mailto:taira@desire.earth">taira@desire.earth</a></p>
-                    <p>DESIRE | PRAIA GRANDE<br>
-                    Rua Chile, 693, SL 103 – Guilhermina, SP, Brasil | <a href="mailto:padula@desire.earth">padula@desire.earth</a></p>
-                    <p><a href="mailto:desire@desire.earth">desire@desire.earth</a></p>
-                    </div>
+                <p>Rua Cincinato Braga, 439, SL 172 – Bela Vista, SP, Brasil | +55 11 9 4245 0730 |
+                    <a href="mailto:yu@newdreams.xyz">yu@newdreams.xyz</a>
+                </p>
+                <p>NewDreams | PRAIA GRANDE</p>
+                <p>Rua Chile, 693, SL 103 Guilhermina, SP, Brasil | +55 11 9 6369 1915 |
+                    <a href="mailto:dula@newdreams.xyz">dula@newdreams.xyz</a>
+                </p>
+                <p>NewDreams | TOKYO</p>
+                <p>Shibuya City, 渋谷区, Japan |
+                    <a href="mailto:kenji.kirara@newdreams.xyz">kenji.kihara@newdreams.xyz</a>
+                </p>
+                <p><a href="mailto:hello@newdreams.xyz">hello@newdreams.xyz</a></p>
+                <p>DESIRE | SÃO PAULO</p>
+                <p>Rua Condessa do Pinhal, 188 – Parque Colonial, SP, Brasil |
+                    <a href="mailto:taira@desire.earth">taira@desire.earth</a>
+                </p>
+                <p>DESIRE | PRAIA GRANDE</p>
+                <p>Rua Chile, 693, SL 103 – Guilhermina, SP, Brasil |
+                    <a href="mailto:padula@desire.earth">padula@desire.earth</a>
+                </p>
+                <p><a href="mailto:desire@desire.earth">desire@desire.earth</a></p>
+
             </section>
 
         </footer>

@@ -1,0 +1,12 @@
+.form-container{
+    width: 100%;
+    border-top: solid 0.2rem;
+    padding: 2rem 0;
+
+}
+.form-container input{
+    background-color: transpxarent;
+    border: none;
+    padding-left: 1rem;
+    width: 90%;
+}
