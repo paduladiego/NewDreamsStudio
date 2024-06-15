@@ -20,7 +20,7 @@
         <title>New Dreams</title>
         <meta name="description"
             content="Estúdio de design especializado em identidade visual, animação, pós-produção e no desenvolvimento de sites e apps.">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" title="Carrossel">
 
     </head>
 
@@ -244,8 +244,8 @@
                 <div class="swiper-pagination"></div>
 
                 <!-- Se precisarmos de botões de navegação -->
-                <div class="swiper-button-prev" id="swiper-prev"></div>
-                <div class="swiper-button-next" id="swiper-next"></div>
+                <div class="swiper-button-prev" id="swiper-prev2"></div>
+                <div class="swiper-button-next" id="swiper-next2"></div>
 
                 <!-- Se precisarmos de uma barra de rolagem -->
                 <div class="swiper-scrollbar"></div>
@@ -270,52 +270,53 @@
                 </div>
 
                 <form action="https://newdreams.xyz/" autocomplete="off" method="post" id="form">
-                    <div class="form-container">
-                        <label for="name"><i class="fa-solid fa-user"></i></label>
-                        <input type="text" name="Nome" id="id0" placeholder="Nome *" required>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <i class="fas fa-check-circle"></i>
+                    <div class="forms-container">
+                        <label for="form-name" id="form-lb-name"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" name="Nome" id="form-name" placeholder="Nome *" required>
+                        <i class="fas fa-exclamation-circle form-status"></i>
+                        <i class="fas fa-check-circle form-status"></i>
                         <small>Campo obrigatório</small>
+                    </div>
+                    <div class="forms-container">
+                        <label for="form-email" id="form-lb-mail"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" name="Email" id="form-email" placeholder="Email *" required>
+                        <i class="fas fa-exclamation-circle form-status"></i>
+                        <i class="fas fa-check-circle form-status"></i>
+                        <small>Campo obrigatório</small>
+                    </div>
+                    <div class="forms-container">
+                        <label for="form-phone" id="form-lb-phone"><i class="fa-solid fa-phone"></i></label>
+                        <input type="tel" name="Telefone" id="form-phone" placeholder="Telefone *" required>
+                        <i class="fas fa-exclamation-circle form-status"></i>
+                        <i class="fas fa-check-circle form-status"></i>
+                        <small>Campo obrigatório</small>
+                    </div>
+                    <div class="forms-container">
+                        <label for="form-message" id="form-lb-message"><i class="fa-solid fa-pencil"></i></label>
+                        <textarea name="Mensagem" id="form-message" placeholder="Digite sua mensagem *"
+                            required></textarea>
+                        <i class="fas fa-exclamation-circle form-status"></i>
+                        <i class="fas fa-check-circle form-status"></i>
+                        <small>Campo obrigatório</small>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="button-1 f-p" id="form-btn">Enviar</button>
                     </div>
 
                 </form>
-
-                <form class="form" autocomplete="off" action="https://newdreams.xyz/" method="post">
-                    <div>
-                        <label for="name"><i class="fa-solid fa-user"></i></label>
-                        <input aria-label="Nome" type="text" name="nd_form1_text1" value="" placeholder="Nome *"
-                            data-required="true" aria-required="true" id="id0">
-                        <div class="nd-form-state">Preencha esse campo</div>
-                        <input type="text" name="" id="">
-
-                    </div>
-                    <div>
-                        <label for="email"><i class="fa-solid fa-envelope"></i></i></label>
-                        <input aria-label="E-mail" type="text" name="nd_form1_text2" value="" placeholder="E-mail *"
-                            data-required="true" aria-required="true" id="id1">
-                        <div class="nd-form-state hid">Preencha esse campo</div>
-                    </div>
-                    <div>
-                        <label for="phone"><i class="fa-solid fa-phone"></i></label>
-                        <input aria-label="Telefone" type="text" name="nd_form1_text3" value="" placeholder="Telefone"
-                            id="id2">
-                        <div class="w-form-row-state">Preencha esse campo</div>
-
-                    </div>
-                    <div>
-                        <label for="mensage"><i class="fa-solid fa-pencil"></i></label>
-                        <textarea aria-label="Mensagem" name="nd_form1_textarea1" placeholder="Mensagem *"
-                            data-required="true" aria-required="true"></textarea>
-                        <div class="w-form-row-state">Preencha esse campo</div>
-                    </div>
-                    <div class="w-form-row-field">
-                        <button class="nd-btn" aria-label="ENVIAR" type="submit">
-                            ENVIAR
-                        </button>
-                    </div>
             </section>
-            </form>
-            <section class="footer_info">
+            <section class="footer_info f-p">
+                <h2 class="hidden">unidades</h2>
+                <div class="footer-social">
+                    <img src="./assets/img/icon-in-social.svg" alt="Logo Linkedin">
+                    <img src="./assets/img/icon-yt-social.svg" alt="Logo Youtube">
+                    <img src="./assets/img/icon-face-social.svg" alt="Logo Facebook">
+                    <img src="./assets/img/icon-insta-social.svg" alt="Logo Instagram">
+                    <img src="./assets/img/icon-x-social.svg" alt="Logo X">
+                    <a href="https://wa.me/5511942450730" target="_blank">
+                        <img src="./assets/img/icon-whats-social.svg" alt="Logo Whatsapp">
+                    </a>
+                </div>
                 <p>NewDreams | SÃO PAULO</p>
                 <p>Rua Cincinato Braga, 439, SL 172 – Bela Vista, SP, Brasil | +55 11 9 4245 0730 |
                     <a href="mailto:yu@newdreams.xyz">yu@newdreams.xyz</a>

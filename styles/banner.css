@@ -25,19 +25,20 @@ section.banner .swiper-pagination-bullet {
 section.banner .swiper-pagination-bullet-active {
     opacity: 1;
 }
-div#swiper-next,
-div#swiper-prev{
+
+div.swiper-button-next,
+div.swiper-button-prev{
     position: absolute;
     top: 2.5rem;
     width: 15%;
     height: 100%;
     color: transparent;
 }
-div#swiper-next:hover{
+div.swiper-button-next:hover{
     cursor: url(../assets/img/icon-nd-arrow-next.svg), auto !important;
 
 }
-div#swiper-prev:hover{
+div.swiper-button-prev:hover{
     cursor: url(../assets/img/icon-nd-arrow-prev.svg), auto !important;
     /* rotate: 90deg; */
 

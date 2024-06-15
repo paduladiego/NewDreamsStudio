@@ -48,13 +48,15 @@
 }
 
 * {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--cor-text-1);
     font-family: var(--font-paragraph);
     font-weight: 300;
 }
 .hidden {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
+    font-size: 0.1rem;
 }
 body {
     overflow-x: hidden;
@@ -152,8 +154,6 @@ body {
 
 /* Linhas Término*/
 /* xxxxxxxxxx Início*/
-
-
 /* xxxxxxxxxx Término*/
 /* xxxxxxxxxx Início*/
 /* xxxxxxxxxx Término*/
