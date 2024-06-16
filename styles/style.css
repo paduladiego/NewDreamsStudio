@@ -31,6 +31,7 @@
     --cor-bg-2: #FFFFFF;
     --cor-bg-t1: rgba(0, 0, 0, 0.5);
     --cor-bg-t2: rgba(255, 255, 255, 0.5);
+    --cor-bg-t3: rgba(0, 0, 0, 0.2);
     --cor-text-1: #FFFFFF;
     --cor-text-2: #000000;
     /* Fonts */
@@ -40,11 +41,6 @@
     --font-inter: 'Inter', sans-serif;
     --font-awesome: 'Font Awesome 6 Free', sans-serif;
     font-size: 62.5%;
-    /* banner */
-    /* --swiper-pagination-bullet-size: 1rem; */
-    /* --swiper-pagination-bullet-color: var(-cor-3); */
-    /* --swiper-pagination-bullet-inactive-color: #000; */
-    /* --swiper-pagination-bullet-inactive-opacity: 1; */
 }
 
 * {
@@ -57,6 +53,10 @@
     /* display: none; */
     visibility: hidden;
     font-size: 0.1rem;
+}
+.no-display{
+    display: none;
+    color: transparent;
 }
 body {
     overflow-x: hidden;

@@ -1,8 +1,7 @@
-.bullets{
+.bullets {
     display: flex;
     position: relative;
-    height:76.8rem;
-    /* height: max-width(100vh); */
+    height: 76.8rem;
     width: 100vw;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -10,7 +9,114 @@
     background-attachment: fixed;
 
 }
-.bullets_logos{
-    flex-grow: 1;
+
+#swiperBullets {
+    min-height: 76.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.bullets_logos {
+    position: relative;
+    flex: 1;
     width: auto;
+    min-height: 100%;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+
+.bullets-circle {
+    display: flex;
+    width: 25rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--cor-bg-t3); */
+    border-radius: 100%;
+}
+
+.bullets-circle p {
+    font-size: 3rem;
+    transition: 300ms;
+    text-align: center;
+}
+
+.bullets-circle img {
+    height: 70%;
+    width: 70%;
+}
+
+.bullets-circle:hover {
+    background-color: transparent;
+    transition: 300ms;
+    background-color: var(--cor-bg-t3);
+
+}
+
+.bullets-circle:hover img {
+    /* animation: bullets-img 300ms ease-in-out forwards; */
+    display: none;
+}
+
+.bullets-circle:hover p {
+    transition: 300ms;
+    color: var(--cor-6);
+    animation: glitch 2s ease-in-out infinite;
+    display: flex;
+
+}
+
+
+#swiper-button-prev-bullets {
+    content: url(../assets/img/icon-nd-arrow-prev.svg), auto !important;
+}
+
+div.bullets-prev,
+div.bullets-next {
+    display: flex;
+    padding: 0 5%;
+    height: 100%;
+    min-height: 70rem;
+
+}
+
+div.bullets-prev img,
+div.bullets-next img {
+    width: 2rem;
+}
+
+div#swiper-button-prev-bullets,
+div#swiper-button-next-bullets {
+    color: transparent;
+}
+
+div.bullets-next:hover {
+    cursor: url(../assets/img/icon-nd-arrow-next.svg), auto !important;
+    /* transform: rotate(180deg); */
+
+}
+
+div.bullets-prev:hover {
+    cursor: url(../assets/img/icon-nd-arrow-prev.svg), auto !important;
+    /* transform: rotate(180deg); */
+
+}
+
+@keyframes bullets-img {
+    0% {
+        height: 70%;
+        width: 70%;
+    }
+
+    90% {
+        height: 90%;
+        width: 90%;
+    }
+
+    100% {
+        display: none;
+
+    }
 }

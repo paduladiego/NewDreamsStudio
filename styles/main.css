@@ -1,5 +1,6 @@
 main {
     height: 100vh;
+    min-height: 76.8rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -8,6 +9,13 @@ main {
     background-image: url(../assets/img/bg-Home1920c.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.background-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .home h3 {
@@ -40,6 +48,15 @@ main h1 {
     width: 70rem;
     animation: glitch 2s ease-in-out infinite;
 }
+main h1 img {
+    width: 100%;
+}
+main h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 150%;
+    /* letter-spacing: 0.1rem; */
+}
 
 .home_right {
     display: flex;
@@ -62,9 +79,11 @@ main h1 {
     justify-content: space-between;
 
 }
-.nav h5{
+
+.nav h5 {
     padding-left: 10rem;
 }
+
 .nav_ul {
     display: flex;
     gap: 1rem;
@@ -107,4 +126,5 @@ main h1 {
         filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);
     }
 }
+
 /* Animations End */

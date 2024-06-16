@@ -2,8 +2,9 @@ footer {
     display: flex;
     height: auto;
     width: 100vw;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     background-color: var(--cor-1);
+    position: relative;
 }
 .footer_form{
     min-width: 30%;
@@ -32,10 +33,38 @@ footer {
     width: auto;
     padding: 10rem;
     background-color: var(--cor-2);
+    position: relative;
+    background-image: url(../assets/img/img-fuji-sol.svg);
+    background-position: 110% 100%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+
 }
 
 .footer-social{
     display: flex;
     width: auto;
     gap: 1rem;
+    padding-bottom: 2.4rem;
+}
+.footer_info h4{
+    font-weight: bold;
+    padding-bottom: .7rem;
+}
+.footer_info p {
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+.footer_info .logo-animado{
+    height: 6em;
+    position: absolute;
+    right: -7.2rem;
+    bottom: calc(50% - 3rem);
+    transition: 300ms;
+
+}
+
+.logo-animado:hover{
+    transition: 300ms;
+    right: 0;
 }

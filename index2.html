@@ -27,11 +27,6 @@
     <body>
         <main class="cor-bg1" id="main">
             <hr class="hr-bottom-right cor-bg-cian">
-            <!-- <video autoplay loop muted plays-inline class="background-video">
-                <source
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/82f375e7-244f-4c21-90ac-9abd7549ed05"
-                  type="video/mp4" />
-              </video> -->
             <section class="home" id="home">
                 <h3 class="home_left f-jp cor-magent">よ<br>う<br>こ<br>そ</h3>
                 <div class="home_central">
@@ -39,8 +34,9 @@
                         <glitch-image src="./assets/img/logo-newdreams-fit.svg" alt="NewDrams Studio"></glitch-image>
                     </h1> -->
                     <h1><img class="home_central_logo" src="assets/img/logo-newdreams-fit.svg" alt="NEWDREAMS"></h1>
-                    <h2 class="f-p cor-cian"><span class="cor-magent">ESTÚDIO DE DESIGN</span> ESPECIALIZADO EM
-                        IDENTIDADE VISUAL,<br>ANIMAÇÃO, PÓS-PRODUÇÃO E NO DESENVOLVIMENTO DE SITES E APPS.</h2>
+                    <h2 class="f-p cor-cian"><span class="cor-magent">ESTÚDIO DE DESIGN</span>ESPECIALIZADO EM
+                        IDENTIDADE
+                        VISUAL,<br>ANIMAÇÃO, PÓS-PRODUÇÃO E NO DESENVOLVIMENTO DE SITES E APPS.</h2>
                 </div>
                 <aside class="home_right">
                     <a href="https://wa.me/5511942450730" target="_blank"><img src="./assets/img/icon-whats.svg"
@@ -61,7 +57,6 @@
                         <li><a href="#about">NEWDREAMS</a></li>
                         <li><a href="#clients">CLIENTES</a></li>
                         <li><a href="#designs">DESIGN</a></li>
-                        <li><a href="#services">SERVIÇOS</a></li>
                         <li><a href="#marks">MARCAS</a></li>
                         <li><a href="#teams">EQUIPE</a></li>
                         <li><a href="#footer">CONTATO</a></li>
@@ -112,7 +107,7 @@
             <hr class="hr-top-right cor-bg-cian">
             <hr class="hr-bottom-right cor-bg-magent">
             <!-- Contêiner principal do slider -->
-            <div class="swiper-banner">
+            <div class="swiper">
                 <!-- Wrapper adicional necessário -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -147,8 +142,11 @@
                 <div class="swiper-pagination"></div>
 
                 <!-- Se precisarmos de botões de navegação -->
-                <div class="swiper-button-prev " id="swiper-button-prev-clients"></div>
-                <div class="swiper-button-next" id="swiper-button-next-clients"></div>
+                <div class="swiper-button-prev" id="swiper-prev"></div>
+                <div class="swiper-button-next" id="swiper-next"></div>
+
+                <!-- Se precisarmos de uma barra de rolagem -->
+                <div class="swiper-scrollbar"></div>
             </div>
 
 
@@ -160,76 +158,15 @@
                 <h2 class="f-title cor-magent">CLIENTES</h2>
                 <h3 class="f-jp cor-cian">客</h3>
             </div>
-            <section class="clients_logos bullets_logos">
-                <h2 class="hidden">logos de clients</h2>
-                <div class="bullets-prev"><img src="./assets/img/icon-nd-arrow-prev.svg" alt="seta esquerda"></div>
-                <div class="swiper" id="swiperBullets">
-                    <!-- Wrapper adicional necessário -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <!-- conteúdo slide -->
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-nissan.svg" alt="logo nissan">
-                                <p class="cor-cian f-p no-display"><a href="https://www.logitech.com/pt-br" target="_blank">Nissan</a></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-logitech.svg" alt="logo logitech">
-                                <p class="cor-cian f-p no-display"><a href="https://www.logitech.com/pt-br" target="_blank">Logitech</a></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-santista.svg" alt="logo santista">
-                                <p class="cor-cian f-p no-display"><a href="https://www.logitech.com/pt-br" target="_blank">Santista</a></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-rei-de-copas.svg" alt="logo rei de Copas">
-                                <p class="cor-cian f-p no-display"><a href="https://enciclopedia.itaucultural.org.br/evento392096/o-rei-de-copas" target="_blank">Rei de Copas</a></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-pokerstars.svg" alt="logo PokerStars">
-                                <p class="cor-cian f-p no-display"><a href="https://www.pokerstars.com/" target="_blank">PokerStars</a></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-yuzo.svg" alt="logo yuzo akahori">
-                                <p class="cor-cian f-p no-display"><a href="https://www.youtube.com/@yuzoakahori7996/videos" target="_blank">Yuzo Akahori</a></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-tuft.svg" alt="logo tufit">
-                                <p class="cor-cian f-p no-display">TUFT</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/client-logo-manolo.svg" alt="logo manolo brother">
-                                <p class="cor-cian f-p no-display">Manolo<br>Brothers</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bullets-circle"><img src="./assets/img/logo-ale-contini.svg" alt="logo ale contini">
-                                <p class="cor-cian f-p no-display"><a href="https://www.instagram.com/p/CUgSMsMMY_P/?img_index=1" target="_blank">Ale<br>Contini</a></p>
-                            </div>
-                        </div>
-                        <!-- fim dos itens do slide -->
-                    </div>
-                    <!-- Se precisarmos de paginação -->
-                    <div class="swiper-pagination"></div>
-    
-                </div>
-                <div class="bullets-next"><img src="./assets/img/icon-nd-arrow-next.svg" alt="seta esquerda"></div>
-    
-    
-            </section>
+            <div class="clients_logos bullets_logos">
+
+            </div>
 
         </section>
         <section class="design-services" id="design-services">
-            <h2 class="hidden">disign e serviços</h2>
             <hr class="hr-top-right cor-bg-cian">
             <hr class="hr-bottom-right cor-bg-magent">
-            <div class="swiper-banner">
+            <div class="swiper">
                 <!-- Wrapper adicional necessário -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -278,19 +215,9 @@
                                 <ul>
                                     <li class="f-p cor-black">Criação de logotipos</li>
                                     <li class="f-p cor-black">Artes e ilustrações</li>
-                                    <li class="f-p cor-black">Desenvolvimento em 3D</li>
-                                    <li class="f-p cor-black">Animações</li>
-                                    <li class="f-p cor-black">Websites</li>
-                                    <li class="f-p cor-black">Apps</li>
-                                    <li class="f-p cor-black">Papelaria</li>
-                                    <li class="f-p cor-black">Produtos</li>
-                                    <li class="f-p cor-black">Layouts</li>
-                                    <li class="f-p cor-black">Consultoria</li>
                                 </ul>
-                                <p></p>
-                                <a href="#footer">
-                                    <p class="f-p cor-black">Entre em contato e faça sua solicitação e torne seus sonhos realidade.</p>
-                                </a>
+                                
+                                <p class="f-p cor-black">Entre em contato e faça sua solicitação e torne seus sonhos realidade.</p>
                             </article>
                         </section>
                     </div>
@@ -299,11 +226,11 @@
                 <div class="swiper-pagination"></div>
 
                 <!-- Se precisarmos de botões de navegação -->
-                <div class="swiper-button-prev" id="swiper-button-prev-designer-services"></div>
-                <div class="swiper-button-next" id="swiper-button-next-designer-services"></div>
+                <div class="swiper-button-prev" id="swiper-prev2"></div>
+                <div class="swiper-button-next" id="swiper-next2"></div>
 
                 <!-- Se precisarmos de uma barra de rolagem -->
-                <!-- <div class="swiper-scrollbar"></div> -->
+                <div class="swiper-scrollbar"></div>
             </div>
 
 
@@ -322,11 +249,11 @@
 
             </div>
         </section>
-        <section class="banner" id="banner_marks">
+        <section class="banner" id="banner_marks" style="background-color: cornflowerblue;">
             <hr class="hr-top-right cor-bg-magent">
             <hr class="hr-bottom-right cor-bg-green">
             <!-- Contêiner principal do slider -->
-            <div class="swiper-banner">
+            <div class="swiper">
                 <!-- Wrapper adicional necessário -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -361,9 +288,11 @@
                 <div class="swiper-pagination"></div>
 
                 <!-- Se precisarmos de botões de navegação -->
-                <div class="swiper-button-prev" id="swiper-button-prev-marks"></div>
-                <div class="swiper-button-next" id="swiper-button-next-marks"></div>
+                <div class="swiper-button-prev" id="swiper-prev2"></div>
+                <div class="swiper-button-next" id="swiper-next2"></div>
 
+                <!-- Se precisarmos de uma barra de rolagem -->
+                <div class="swiper-scrollbar"></div>
             </div>
         </section>
         <section class="teams bullets" id="teams" style="background-color: cadetblue;">
@@ -378,8 +307,6 @@
             </div>
         </section>
         <footer class="footer" id="footer">
-            <hr class="hr-top-right cor-bg-cian">
-
             <section class="footer_form">
                 <div class="footer_form_title">
                     <h2 class="f-title cor-white">CONTATO</h2>
@@ -443,10 +370,10 @@
                     <a href="mailto:dula@newdreams.xyz" target="_blank">dula@newdreams.xyz</a>
                 </p>
                 <h4>NewDreams | TOKYO</h4>
-                <p>Sagamihara City, 神奈川県, Japan |<a href="https://wa.me/818047116439" target="_blank"> +81 80 4711 6439</a> |
+                <p>Shibuya City, 渋谷区, Japan |
                     <a href="mailto:luann.wasano@newdreams.xyz" target="_blank">luann.wasano@newdreams.xyz</a>
                 </p>
-                <p><b><a href="mailto:hello@newdreams.xyz" target="_blank">hello@newdreams.xyz</a></b></p>
+                <p><a href="mailto:hello@newdreams.xyz" target="_blank">hello@newdreams.xyz</a></p>
                 <h4>DESIRE | SÃO PAULO</h4>
                 <p>Rua Condessa do Pinhal, 188 – Parque Colonial, SP, Brasil |
                     <a href="mailto:taira@desire.earth" target="_blank">taira@desire.earth</a>

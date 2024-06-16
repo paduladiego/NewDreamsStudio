@@ -38,6 +38,12 @@
 }
 
 .titles-bottom h3 {
-    bottom: 27rem;
     margin-right: -2.3rem;
+}
+
+#designs h3{
+    bottom: 27rem;
+}
+#services h3{
+    bottom: 38rem;
 }

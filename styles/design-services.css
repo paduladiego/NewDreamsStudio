@@ -1,8 +1,14 @@
 .design-services {
+    height: min-content(100vh);
+    width: 100vw;
+    position: relative;
+}
+
+.design-services-in {
     position: relative;
     /* height: 100vh; */
     height: 78.6rem;
-    width: 100vw;
+    width: auto;
     background-image: url(../assets/img/bg_Design-Services1200c.svg);
     background-color: var(--cor-bg-2);
     background-repeat: no-repeat;
@@ -16,19 +22,33 @@
     flex-direction: column;
     flex-grow: 1;
     max-width: 50%;
-    padding: 7rem 6.5rem 8rem 10rem;
+    padding: 7rem 10rem 8rem 10rem;
     justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.15rem;
+
 }
 
 .design-services_article p {
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.15rem;
     text-align: justify;
     padding-bottom: 2rem;
 
 }
-.design-services_article p span{
+
+.design-services_article li {
+    padding-bottom: .5rem;
+}
+
+.design-services_article li::before {
+    content: "•";
+    color: var(--cor-7);
+    display: inline-block;
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.design-services_article p span {
     font-weight: bold;
 }

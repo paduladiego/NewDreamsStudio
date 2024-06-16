@@ -1,12 +1,43 @@
 const swiper = new Swiper('.swiper', {
+	autoplay: {
+		pauseOnMouseEnter: true,
+		delay: 5000,
+	},
+	loop: true,
+	grabCursor: true,
+	initialSlide: 1,
+	centeredSlides: true,
+	slidesPerView: 3,
+	spaceBetween: 30,
 	speed: 400,
-	spaceBetween: 0,
+	// freeMode: false,
+	// mousewheel: {
+	// 	thresholdDelta: 30,
+	//   },
+	
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'bullets',
+		clickable: true,
+	},
+	navigation: {
+		nextEl: '.bullets-next',
+		// prevEl: '.swiper-button-prev',
+		prevEl: '.bullets-prev',
+	},
+});
+
+const swiperBanner = new Swiper('.swiper-banner', {
+	grabCursor: true,
+	speed: 400,
+	// spaceBetween: 0,
 	loop: true,
 	slidesPerView: 1,
-    effect: 'fade',
-    autoplay: {
-        delay: 5000,
-      },
+	effect: 'fade',
+	autoplay: {
+		delay: 5000,
+		pauseOnMouseEnter: true,
+	},
 	fadeEffect: {
 		crossFade: true,
 	},
