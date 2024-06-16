@@ -6,7 +6,7 @@ main {
     flex-direction: column;
     padding: 8rem 5rem 3rem 5rem;
     position: relative;
-    background-image: url(../assets/img/bg-Home1920c.jpg);
+    background-image: url(../assets/img/bg-Home1920c.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
