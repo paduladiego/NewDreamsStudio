@@ -1,19 +1,24 @@
-.banner{
+.banner {
     position: relative;
     width: 100vw;
     height: auto;
+    z-index: 0;
+
 }
-.banner h5{
+
+.banner h5 {
     position: absolute;
     bottom: 5rem;
     left: 15rem;
     font-size: 1.8rem;
     font-weight: 300;
-    
+
 }
-.banner img{
+
+.banner img {
     width: 100vw;
 }
+
 section.bullets .swiper-pagination-bullet,
 section.banner .swiper-pagination-bullet,
 section.design-services .swiper-pagination-bullet {
@@ -24,6 +29,7 @@ section.design-services .swiper-pagination-bullet {
     height: 1rem;
 
 }
+
 section.design-services .swiper-pagination-bullet,
 section.bullets .swiper-pagination-bullet {
     background-color: var(--cor-1);
@@ -31,7 +37,7 @@ section.bullets .swiper-pagination-bullet {
 
 section.bullets .swiper-pagination-bullet-active,
 section.banner .swiper-pagination-bullet-active,
-section.design-services .swiper-pagination-bullet-active{
+section.design-services .swiper-pagination-bullet-active {
     opacity: 1;
 }
 
@@ -40,23 +46,26 @@ div#swiper-button-prev-designer-services,
 div#swiper-button-next-clients,
 div#swiper-button-prev-clients,
 div#swiper-button-next-marks,
-div#swiper-button-prev-marks{
+div#swiper-button-prev-marks {
     position: absolute;
     top: 2.5rem;
     width: 15%;
     height: 100%;
     color: transparent;
 }
+
 div#swiper-button-next-designer-services:hover,
 div#swiper-button-next-marks:hover,
-div#swiper-button-next-clients:hover{
+div#swiper-button-next-clients:hover {
     cursor: url(../assets/img/icon-nd-arrow-next.svg), auto !important;
 
 }
+
 div#swiper-button-prev-designer-services:hover,
 div#swiper-button-prev-marks:hover,
-div#swiper-button-prev-clients:hover{
+div#swiper-button-prev-clients:hover {
     cursor: url(../assets/img/icon-nd-arrow-prev.svg), auto !important;
     /* rotate: 90deg; */
 
 }
+

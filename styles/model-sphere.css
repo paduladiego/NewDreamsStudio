@@ -1,0 +1,40 @@
+body {
+    background-color: var(--cor-bg-1-in);
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.sphere-main a {
+    cursor: var(--nd-cursor);
+}
+.sphere-main p {
+    font-size: 3rem;
+    animation: neon 1.8s ease-in-out infinite;
+    text-align: center;
+
+}
+.sphere-main img {
+    min-width: var(--sp here-in);
+    min-height: var(--sphere-in);
+    max-width: var(--sphere-in);
+    max-height: var(--sphere-in);
+}
+
+.sphere-main {
+    width: var(--sphere-xy);
+    height: var(--sphere-xy);
+    border-radius: 50%;
+}
+
+.sphere-front,
+.sphere-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+

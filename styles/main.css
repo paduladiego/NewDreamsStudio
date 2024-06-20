@@ -9,6 +9,7 @@ main {
     background-image: url(../assets/img/bg-Home1920c.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1000;
 }
 
 .background-video {
@@ -46,7 +47,6 @@ main {
 
 main h1 {
     width: 70rem;
-    animation: glitch 2s ease-in-out infinite;
 }
 main h1 img {
     width: 100%;
@@ -100,31 +100,3 @@ main h2 {
 
 }
 
-/* Animations Start */
-@keyframes glitch {
-    0% {
-        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);
-    }
-
-    10% {
-        filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);
-    }
-
-    20% {
-        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);
-    }
-
-    30% {
-        filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);
-    }
-
-    40% {
-        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);
-    }
-
-    100% {
-        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);
-    }
-}
-
-/* Animations End */

@@ -16,12 +16,14 @@
 /* @import './nav.css'; */
 @import './footer.css';
 @import './forms.css';
+@import './animations.css';
 
 :root {
     /* Colors */
     --cor-1: #00D4FF;
     --cor-2: #FF245C;
-    --cor-3: #14AA37;
+    --cor-3: #14aa37;
+    --cor-t3: #14aa371c;
     --cor-4: #FF17B7;
     --cor-5: #8C008C;
     --cor-6: #FFFFFF;
@@ -41,6 +43,11 @@
     --font-inter: 'Inter', sans-serif;
     --font-awesome: 'Font Awesome 6 Free', sans-serif;
     font-size: 62.5%;
+    /* Sphere bullets size */
+    --sphere-xy: 25rem;
+    --sphere-in: 20rem;
+    /* cursores */
+    --nd-cursor: url(../assets/img/icon-nd-arrow-45deg.svg), auto;
 }
 
 * {
@@ -48,6 +55,7 @@
     color: var(--cor-text-1);
     font-family: var(--font-paragraph);
     font-weight: 300;
+    scroll-behavior: smooth;
 }
 .hidden {
     /* display: none; */
@@ -153,8 +161,21 @@ body {
 }
 
 /* Linhas Término*/
-/* xxxxxxxxxx Início*/
-/* xxxxxxxxxx Término*/
+/* animations Início*/
+.neon{
+    animation: neon 2s ease-in-out infinite;
+
+}
+.appear4{
+    visibility: hidden;
+    opacity: 0;
+    animation: appear 1s ease-in forwards;
+    animation-timeline: scroll();
+    animation-range-start: cover 4%;
+    /* animation-range-start: cover calc(100vh - 5%); */
+}
+/* } */
+/* animations Término*/
 /* xxxxxxxxxx Início*/
 /* xxxxxxxxxx Término*/
 /* xxxxxxxxxx Início*/

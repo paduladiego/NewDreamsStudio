@@ -51,3 +51,26 @@ const swiperBanner = new Swiper('.swiper-banner', {
 		prevEl: '.swiper-button-prev',
 	},
 });
+
+const swiperBannerContainer = new Swiper('.swiper-banner-container', {
+	autoplay: {
+		delay: 5000,
+		pauseOnMouseEnter: true,
+	},
+	grabCursor: true,
+	speed: 900,
+	loop: true,
+	slidesPerView: 1,
+	spaceBetween: 0,
+	effect: 'coverflow',
+
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'bullets',
+		clickable: true,
+	},
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+});

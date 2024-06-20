@@ -1,0 +1,83 @@
+/* Animations Start */
+/* Animations End */
+/* Animations FlipY Start */
+
+.flip-m {
+    position: relative;
+}
+
+.flip-m:hover .flip-c {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    
+    
+}
+
+.flip-c {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: var(--nd-cursor);
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.flip-f,
+.flip-b {
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-b {
+    transform: rotateY(180deg);
+}
+
+/* Animations End */
+/* Animations Keyframs Start */
+@keyframes neon {
+    0% {
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);
+    }
+
+    10% {
+        filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);
+    }
+
+    20% {
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);
+    }
+
+    30% {
+        filter: blur(2px) brightness(70%) contrast(120%) hue-rotate(10deg) saturate(150%) sepia(10%);
+    }
+
+    40% {
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(-10deg) saturate(150%) sepia(5%);
+    }
+
+    100% {
+        filter: blur(0) brightness(100%) contrast(100%) hue-rotate(0deg) saturate(100%) sepia(0%);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 0.7;
+
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 0.7;
+
+    }
+}
+
+/* Animations Keyframs End */
