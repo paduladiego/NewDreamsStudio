@@ -161,21 +161,6 @@ body {
 }
 
 /* Linhas Término*/
-/* animations Início*/
-.neon{
-    animation: neon 2s ease-in-out infinite;
-
-}
-.appear4{
-    visibility: hidden;
-    opacity: 0;
-    animation: appear 1s ease-in forwards;
-    animation-timeline: scroll();
-    animation-range-start: cover 4%;
-    /* animation-range-start: cover calc(100vh - 5%); */
-}
-/* } */
-/* animations Término*/
 /* xxxxxxxxxx Início*/
 /* xxxxxxxxxx Término*/
 /* xxxxxxxxxx Início*/

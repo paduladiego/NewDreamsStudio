@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-teste', {
+const swiperTeste = new Swiper('.swiper-teste', {
 	speed: 400,
 	slidesPerView: 3,
 	spaceBetween: 30,
@@ -21,3 +21,4 @@ const swiper = new Swiper('.swiper-teste', {
 		prevEl: '.swiper-button-prev-bullets',
 	},
 });
+

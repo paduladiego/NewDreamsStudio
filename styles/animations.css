@@ -1,18 +1,27 @@
 /* Animations Start */
+.neon{
+    animation: neon 2s ease-in-out infinite;
+
+}
+.appear4{
+    visibility: hidden;
+    opacity: 0;
+    animation: appear 1s ease-in forwards;
+    animation-timeline: scroll();
+    animation-range-start: cover 4%;
+    /* animation-range-start: cover calc(100vh - 5%); */
+}
 /* Animations End */
 /* Animations FlipY Start */
 
 .flip-m {
     position: relative;
 }
-
 .flip-m:hover .flip-c {
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    
-    
+    -webkit-backface-visibility: hidden;
 }
-
 .flip-c {
     position: absolute;
     width: 100%;
@@ -21,7 +30,6 @@
     transform-style: preserve-3d;
     transition: .5s;
 }
-
 .flip-f,
 .flip-b {
     position: absolute;
@@ -30,11 +38,9 @@
     width: 100%;
     height: 100%;
 }
-
 .flip-b {
     transform: rotateY(180deg);
 }
-
 /* Animations End */
 /* Animations Keyframs Start */
 @keyframes neon {

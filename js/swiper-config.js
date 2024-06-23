@@ -1,15 +1,20 @@
 const swiper = new Swiper('.swiper', {
+	clickedSlide: true,
 	autoplay: {
 		pauseOnMouseEnter: true,
 		delay: 5000,
 	},
 	loop: true,
-	grabCursor: true,
 	initialSlide: 1,
 	centeredSlides: true,
 	slidesPerView: 3,
 	spaceBetween: 30,
 	speed: 400,
+	// grabCursor: true,
+	// pointerup: true,
+	// clickable: true,
+	preventClicks: false,
+	preventClicksPropagation: false,
 	// freeMode: false,
 	// mousewheel: {
 	// 	thresholdDelta: 30,
@@ -22,13 +27,14 @@ const swiper = new Swiper('.swiper', {
 	},
 	navigation: {
 		nextEl: '.bullets-next',
-		// prevEl: '.swiper-button-prev',
 		prevEl: '.bullets-prev',
 	},
 });
 
 const swiperBanner = new Swiper('.swiper-banner', {
-	grabCursor: true,
+	// grabCursor: true,
+	// pointerup: true,
+	clickedSlide: true,
 	speed: 400,
 	// spaceBetween: 0,
 	loop: true,
@@ -73,4 +79,23 @@ const swiperBannerContainer = new Swiper('.swiper-banner-container', {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.swiper-slide');
+
+    slides.forEach(slide => {
+        slide.addEventListener('click', function(event) {
+            const link = this.querySelector('.sphere-back');
+			if (link) {
+				event.preventDefault();
+                let url = link.href;
+				if (url === undefined) {
+					return;
+				} else {
+					window.open(url, '_blank'); // Abre o link em uma nova aba
+				}
+            }
+        });
+    });
 });
