@@ -29,11 +29,16 @@ section.design-services .swiper-pagination-bullet {
     height: 1rem;
 
 }
-
+/* cor da paginação do bullet */
 section.design-services .swiper-pagination-bullet,
 section.bullets .swiper-pagination-bullet {
     background-color: var(--cor-1);
 }
+#design-services .swiper-pagination-bullet{
+    background-color: var(--cor-7);
+}
+/* cor da paginação do bullet */
+/* cor da paginação do bullet */
 
 section.bullets .swiper-pagination-bullet-active,
 section.banner .swiper-pagination-bullet-active,

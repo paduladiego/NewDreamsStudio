@@ -15,6 +15,7 @@
     font-size: 3rem;
     animation: neon 1.8s ease-in-out infinite;
     text-align: center;
+    line-height: 150%;
 }
 
 .sphere-main img {
@@ -50,10 +51,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
-#swiperBullets {
+#swiperBulletsClients,
+#swiperBulletsMarks,
+#swiperBulletsTeams {
     min-height: 76.8rem;
     display: flex;
     align-items: center;

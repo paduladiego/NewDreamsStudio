@@ -10,16 +10,8 @@ const swiper = new Swiper('.swiper', {
 	slidesPerView: 3,
 	spaceBetween: 30,
 	speed: 400,
-	// grabCursor: true,
-	// pointerup: true,
-	// clickable: true,
 	preventClicks: false,
 	preventClicksPropagation: false,
-	// freeMode: false,
-	// mousewheel: {
-	// 	thresholdDelta: 30,
-	//   },
-	
 	pagination: {
 		el: '.swiper-pagination',
 		type: 'bullets',
@@ -31,6 +23,30 @@ const swiper = new Swiper('.swiper', {
 	},
 });
 
+const swiperMarks = new Swiper('.swiperTeams', {
+	clickedSlide: true,
+	autoplay: {
+		pauseOnMouseEnter: true,
+		delay: 5000,
+	},
+	loop: true,
+	initialSlide: 1,
+	centeredSlides: true,
+	slidesPerView: 3,
+	spaceBetween: 30,
+	speed: 400,
+	preventClicks: false,
+	// preventClicksPropagation: false,
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'bullets',
+		clickable: true,
+	},
+	navigation: {
+		nextEl: '.bullets-next',
+		prevEl: '.bullets-prev',
+	},
+});
 const swiperBanner = new Swiper('.swiper-banner', {
 	// grabCursor: true,
 	// pointerup: true,
@@ -57,6 +73,8 @@ const swiperBanner = new Swiper('.swiper-banner', {
 		prevEl: '.swiper-button-prev',
 	},
 });
+
+
 
 const swiperBannerContainer = new Swiper('.swiper-banner-container', {
 	autoplay: {
