@@ -1,0 +1,36 @@
+.portifolio {
+    display: flex;
+    height: 78.6rem;
+    height: min-content(100vh);
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    background-image: url(../assets/img/bg-Clients1920c.webp);
+    background-color: var(--cor-bg-t1);
+    background-blend-mode: multiply;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+}
+
+a{
+    text-align: center;
+}
+a:hover{
+    cursor: var(--nd-cursor);
+
+}
+.portifolio_link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.portifolio h2{
+    font-size: 15rem;
+}
+.portifolio p{
+    padding-top: 2rem;
+    font-size: 2.2rem;
+
+}

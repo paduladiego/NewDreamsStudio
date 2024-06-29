@@ -7,7 +7,7 @@
 @import './main.css';
 @import './about.css';
 @import './banner.css';
-@import './clients.css';
+@import './portifolio.css';
 @import './titles.css';
 @import './design-services.css';
 @import './marks.css';
@@ -162,6 +162,11 @@ body {
 
 /* Linhas Término*/
 /* xxxxxxxxxx Início*/
+button{
+    cursor: var(--nd-cursor) !important;
+    /* cursor: url(../assets/img/icon-nd-arrow-45deg.svg); */
+
+}
 /* xxxxxxxxxx Término*/
 /* xxxxxxxxxx Início*/
 /* xxxxxxxxxx Término*/

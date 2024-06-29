@@ -5,6 +5,8 @@ footer {
     font-size: 1.4rem;
     background-color: var(--cor-1);
     position: relative;
+    overflow-x: hidden;
+
 }
 .footer_form{
     min-width: 30%;

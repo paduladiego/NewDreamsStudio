@@ -37,11 +37,12 @@
     outline: 0;
 }
 .forms-container small{
-    font-size: 1.4rem;
+    font-size: 1rem;
     position: absolute;
     left: 0;
     bottom: 0.5rem;
     visibility: hidden;
+    /* margin-top: 1.5rem; */
 }
 .form-button{
     width: 100%;
@@ -49,6 +50,7 @@
 }
 .button-1{
     background: none;
+    width: 100%;
     border: 0;
     color: var(--cor-6);
 }
@@ -59,4 +61,28 @@
 .button-1:active{
     font-weight: bold;
     color: var(--cor-3);
+}
+/* error and success */
+/* .form-error, */
+.form-error i,
+.form-error > small{
+    color:var(--cor-2);
+}
+
+.form-success i {
+    color: var(--cor-3);
+}
+.form-success i.fa-check-circle,
+.form-error i.fa-exclamation-circle,
+.form-error > small{
+    visibility: visible;
+
+}
+#send-process.form-success{
+ visibility: hidden;    
+}
+
+#send-process.form-success-send{
+ visibility: visible;
+ color: var(--cor-3);
 }
