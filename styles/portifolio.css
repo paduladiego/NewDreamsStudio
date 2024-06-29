@@ -28,9 +28,10 @@ a:hover{
 }
 .portifolio h2{
     font-size: 15rem;
+    font-weight: bold;
 }
 .portifolio p{
     padding-top: 2rem;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 
 }
