@@ -8,7 +8,6 @@
 
 .design-services-in {
     position: relative;
-    /* height: 100vh; */
     height: 78.6rem;
     width: auto;
     background-image: url(../assets/img/bg_Design-Services1200c.svg);
@@ -30,27 +29,22 @@
     font-weight: 300;
     line-height: 150%;
     letter-spacing: 0.15rem;
+    & p {
+        text-align: justify;
+        padding-bottom: 2rem;
+        & span {
+            font-weight: bold;
+        }
+    }
+    & li {
+        padding-bottom: .5rem;
+    }
+    & li::before {
+        content: "•";
+        color: var(--cor-7);
+        display: inline-block;
+        width: 2rem;
+        margin-left: 1rem;
+    }
 
-}
-
-.design-services_article p {
-    text-align: justify;
-    padding-bottom: 2rem;
-
-}
-
-.design-services_article li {
-    padding-bottom: .5rem;
-}
-
-.design-services_article li::before {
-    content: "•";
-    color: var(--cor-7);
-    display: inline-block;
-    width: 2rem;
-    margin-left: 1rem;
-}
-
-.design-services_article p span {
-    font-weight: bold;
 }

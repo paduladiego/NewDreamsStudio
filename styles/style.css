@@ -12,7 +12,7 @@
 @import './design-services.css';
 @import './marks.css';
 @import './teams.css';
-/* @import './header.css'; */
+@import './nav.css';
 /* @import './nav.css'; */
 @import './footer.css';
 @import './forms.css';
@@ -31,9 +31,10 @@
     --cor-bg-1: #000000;
     --cor-bg-1-in: #1A1B1D;
     --cor-bg-2: #FFFFFF;
-    --cor-bg-t1: rgba(0, 0, 0, 0.5);
-    --cor-bg-t2: rgba(255, 255, 255, 0.5);
-    --cor-bg-t3: rgba(0, 0, 0, 0.2);
+    --cor-bg-t2: rgba(0, 0, 0, 0.2);
+    --cor-bg-t5: rgba(0, 0, 0, 0.5);
+    --cor-bg-t5w: rgba(255, 255, 255, 0.5);
+    --cor-bg-t8: rgba(0, 0, 0, 0.8);
     --cor-text-1: #FFFFFF;
     --cor-text-2: #000000;
     /* Fonts */

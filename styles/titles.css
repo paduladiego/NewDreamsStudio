@@ -47,3 +47,18 @@
 #services h3{
     bottom: 38rem;
 }
+
+/* necessário display flex no container pai */
+.titles-center{
+    display: flex;
+    align-items: end;
+}
+.titles-center h2{
+    font-size: 16rem;
+
+}
+.titles-center h3 {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    margin-left: -3.3rem;
+}

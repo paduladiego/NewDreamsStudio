@@ -1,0 +1,97 @@
+.ajustesvg {
+    display: flex;
+    padding-top: 2rem;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#glitch-1,
+#glitch-3,
+#glitch-5 {
+    animation: glitch-nd-impar 5s infinite alternate;
+
+}
+
+#glitch-2,
+#glitch-4,
+#glitch-6 {
+    animation: glitch-nd-par 5s infinite alternate;
+}
+
+#logo-ND {
+    animation: glitch-nd-impar 6s infinite alternate, glitch-nd-par 6s infinite alternate, glitch-nd-null 5s infinite alternate;
+    z-index: 0;
+}
+
+@keyframes glitch-nd-null {
+    48% {
+        visibility: visible;
+    }
+
+    49% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: visible;
+    }
+}
+
+@keyframes glitch-nd-impar {
+    47% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-2%);
+    }
+
+    51% {
+        #logo-ND {visibility: hidden;}
+        visibility: collapse;
+        transform: translate(10%);
+
+    }
+
+    54% {
+        transform: translate(1%);
+    }
+
+    58% {
+        transform: translate(0);
+    }
+
+}
+
+@keyframes glitch-nd-par {
+    47% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(2%);
+    }
+
+    52% {
+        transform: translate(22%);
+        visibility: collapse;
+
+    }
+
+    53% {
+        transform: translate(-3%);
+
+    }
+
+    56% {
+        transform: translate(1.5%);
+    }
+
+    65% {
+        transform: translate(0);
+    }
+
+}

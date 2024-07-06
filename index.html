@@ -27,49 +27,48 @@
     <body>
         <main class="cor-bg1" id="main">
             <hr class="hr-bottom-right cor-bg-cian">
-            <!-- <video autoplay loop muted plays-inline class="background-video">
-                <source
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/82f375e7-244f-4c21-90ac-9abd7549ed05"
-                  type="video/mp4" />
-              </video> -->
             <section class="home" id="home">
                 <h3 class="home_left f-jp cor-magent">よ<br>う<br>こ<br>そ</h3>
                 <div class="home_central">
-                    <!-- <h1>
-                        <glitch-image src="./assets/img/logo-newdreams-fit.svg" alt="NewDrams Studio"></glitch-image>
-                    </h1> -->
-                    <h1 class="neon"><img class="home_central_logo" src="assets/img/logo-newdreams-fit.svg"
-                            alt="NEWDREAMS"></h1>
+                    <h1 class="neon"><img class="home_central_logo" src="./assets/img/logo-newdreams-fit.svg"
+                            alt="NEWDREAMS">
+                    </h1>
                     <h2 class="f-p cor-cian"><span class="cor-magent">ESTÚDIO DE DESIGN</span> ESPECIALIZADO EM
                         IDENTIDADE VISUAL,<br>ANIMAÇÃO, PÓS-PRODUÇÃO E NO DESENVOLVIMENTO DE SITES E APPS.</h2>
                 </div>
                 <aside class="home_right">
-                    <a href="https://wa.me/5511942450730" target="_blank"><img src="./assets/img/icon-whats.svg"
-                            alt="Logo Whatsapp"></a>
+                    <a href="https://wa.me/5511942450730" target="_blank">
+                        <img src="./assets/img/icon-whats.svg" alt="Logo Whatsapp"></a>
                     <img src="./assets/img/icon-yt.svg" alt="Logo Youtube">
                     <img src="./assets/img/icon-in.svg" alt="Logo Linkedin">
                     <img src="./assets/img/icon-insta.svg" alt="Logo Instagram">
                     <img src="./assets/img/icon-face.svg" alt="Logo Facebook">
                     <img src="./assets/img/icon-x.svg" alt="Logo X">
                     <img src="./assets/img/icon-EN.svg" alt="Logo Idioma Inglês">
-                    <img src="./assets/img/icon-mail.svg" alt="Logo Envio Email">
+                    <a href="mailto:hello@newdreams.xyz" target="_blank">
+                        <img src="./assets/img/icon-mail.svg" alt="Logo Envio Email"></a>
                 </aside>
             </section>
-            <section class="nav">
+            <div class="home-base">
                 <h5><span class="cor-magent">KABUKICHŌ,</span><span class="cor-cian"> SHINJUKU, TŌKYO</span></h5>
-                <nav class="">
-                    <ul class="nav_ul">
-                        <li><a href="#about">NEWDREAMS</a></li>
-                        <li><a href="#about">SOBRE</a></li>
-                        <li><a href="#portifolio">PORTIFÓLIO</a></li>
-                        <li><a href="#designs">DESIGN</a></li>
-                        <li><a href="#services">SERVIÇOS</a></li>
-                        <li><a href="#marks">MARCAS</a></li>
-                        <li><a href="#teams">EQUIPE</a></li>
-                        <li><a href="#footer">CONTATO</a></li>
-                    </ul>
-                </nav>
-            </section>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#main">
+                    <img src="./assets/img/logo-nd-full-glitch.svg" alt="Logo NewDreams reduzido em ND"></a>
+                <ul class="nav_ul">
+                    <li><a href="#main">NEWDREAMS</a></li>
+                    <li><a href="#about">SOBRE</a></li>
+                    <li><a href="#portifolio">PORTIFÓLIO</a></li>
+                    <li><a href="#designs">DESIGN</a></li>
+                    <li><a href="#services">SERVIÇOS</a></li>
+                    <li><a href="#marks">MARCAS</a></li>
+                    <li><a href="#teams">EQUIPE</a></li>
+                    <li><a href="#footer">CONTATO</a></li>
+                </ul>
+            </nav>
+            <!-- <video autoplay loop muted plays-inline class="background-video">
+                <source src="./assets/media/vd-home-Japan-SD.mp4" type="video/mp4" />
+            </video> -->
         </main>
         <section class="about cor-bg1" id="about">
             <hr class="hr-top-left cor-bg-magent">
@@ -161,17 +160,17 @@
         <section class="portifolio" id="portifolio">
             <hr class="hr-top-left cor-bg-cian">
             <hr class="hr-bottom-left cor-bg-green">
-            <div class="portifolio_title titles-top">
-                <h2 class="f-title cor-magent">PORTIFÓLIO</h2>
-                <h3 class="f-jp cor-cian">作<br>品<br>集</h3>
-            </div>
             <div class="portifolio_link">
                 <a href="#">
-                    <h2 class="portifolio_link_title cor-cian f-p">CLIENTES</h2>
-                    <p class="f-p cor-cian">CONHEÇA ALGUNS DOS TRABALHOS DO ESTÚDIO</p>
+                    <div class="portifolio_title titles-center">
+                        <h2 class="f-title cor-magent">PORTIFÓLIO</h2>
+                        <h3 class="f-jp cor-cian">作<br>品<br>集</h3>
+                    </div>
+                     <p class="f-p cor-cian">CONHEÇA ALGUNS DOS TRABALHOS DO ESTÚDIO</p>
                 </a>
             </div>
     
+
         </section>
         <section class="design-services" id="design-services">
             <h2 class="hidden">disign e serviços</h2>
@@ -282,299 +281,293 @@
                 <h2 class="f-title cor-cian">MARCAS</h2>
                 <h3 class="f-jp cor-magent">烙<br>印</h3>
             </div>
-                <section class="marks_logos bullets_logos">
-                    <h2 class="hidden">logos de clients</h2>
-                    <div class="bullets-prev"><img src="./assets/img/icon-nd-arrow-prev.svg" alt="seta esquerda"></div>
-                    <div class="swiper" id="swiperBulletsMarks">
-                        <!-- Wrapper adicional necessário -->
-                        <div class="swiper-wrapper cursor">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-nissan.svg" alt="logo nissan">
-                                        </div>
-                                        <a class="sphere-back flip-b" href="https://www.logitech.com/pt-br" target="_blank">
-                                            <p class="cor-cian f-p">Nissan</p>
-                                        </a>
+            <section class="marks_logos bullets_logos">
+                <h2 class="hidden">logos de clients</h2>
+                <div class="bullets-prev"><img src="./assets/img/icon-nd-arrow-prev.svg" alt="seta esquerda"></div>
+                <div class="swiper" id="swiperBulletsMarks">
+                    <!-- Wrapper adicional necessário -->
+                    <div class="swiper-wrapper cursor">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-nissan.svg" alt="logo nissan">
                                     </div>
+                                    <a class="sphere-back flip-b" href="https://www.logitech.com/pt-br" target="_blank">
+                                        <p class="cor-cian f-p">Nissan</p>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-logitech.svg" alt="logo logitech">
-                                        </div>
-                                        <a class="sphere-back flip-b" href="https://www.logitech.com/pt-br" target="_blank">
-                                            <p class="cor-cian f-p">Logitech</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-santista.svg" alt="logo santista">
-                                        </div>
-                                        <a class="sphere-back flip-b" href="https://www.santistajeanswear.com.br/"
-                                            target="_blank">
-                                            <p class="cor-cian f-p">Santista</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-rei-de-copas.svg" alt="logo Rei de Copas">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://enciclopedia.itaucultural.org.br/evento392096/o-rei-de-copas"
-                                            target="_blank">
-                                            <p class="cor-cian f-p">Rei de Copas</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-pokerstars.svg" alt="logo PokerStars">
-                                        </div>
-                                        <a class="sphere-back flip-b" href="https://www.pokerstars.com/" target="_blank">
-                                            <p class="cor-cian f-p">PokerStars</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-yuzo.svg" alt="logo Yuzo Akahori">
-                                        </div>
-                                        <a class="sphere-back flip-b" href="https://www.youtube.com/@yuzoakahori7996/videos"
-                                            target="_blank">
-                                            <p class="cor-cian f-p">Yuzo Akahori</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-tuft.svg" alt="logo TUFT">
-                                        </div>
-                                        <div class="sphere-back flip-b">
-                                            <p class="cor-cian f-p">TUFT</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-manolo.svg" alt="logo manolo brother">
-                                        </div>
-                                        <div class="sphere-back flip-b">
-                                            <p class="cor-cian f-p">Manolo<br>Brothers</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-ale-contini.svg" alt="logo ale contini">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://www.instagram.com/p/CUgSMsMMY_P/?img_index=1" target="_blank">
-                                            <p class="cor-cian f-p">Ale<br>Contini</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/client-logo-casorio.svg" alt="logo Casório">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://www.instagram.com/casorio.virtual/?img_index=1" target="_blank">
-                                            <p class="cor-cian f-p">Casório</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-archin.svg" alt="logo ARCHIN">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://desire.earth" target="_blank">
-                                            <p class="cor-magent f-p">ARCHIN</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-ashra.svg" alt="logo ASHRA">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://desire.earth" target="_blank">
-                                            <p class="cor-magent f-p">ASHRA</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-calcadolandia.svg" alt="logo Calçadolandia">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://desire.earth" target="_blank">
-                                            <p class="cor-magent f-p">Calçadolandia</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-desire-fit.svg" alt="logo DESIRE">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://desire.earth" target="_blank">
-                                            <p class="cor-magent f-p">DESIRE</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-galaxis.svg" alt="logo Galaxis">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://www.universogalaxis.com.br/" target="_blank">
-                                            <p class="cor-magent f-p">Galaxis</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-imo.svg" alt="logo IMO">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://desire.earth" target="_blank">
-                                            <p class="cor-magent f-p">IMO</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-mojuganide.svg" alt="logo Mojuganide">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://www.amazon.com.br/s?k=%22mojuganide%22&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15TWFQ2RQBG30&sprefix=mojuganide+%2Caps%2C296&ref=nb_sb_noss" target="_blank">
-                                            <p class="cor-magent f-p">MOJUGANIDE</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-terra.svg" alt="logo TERRA">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://desire.earth" target="_blank">
-                                            <p class="cor-magent f-p">TERRA</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-xpbr.svg" alt="logo Experiência Brasil">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://www.instagram.com/xpbr_uria/" target="_blank">
-                                            <p class="cor-magent f-p">Experiência Brasil</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- conteúdo slide -->
-                                <div class="sphere-main flip-m">
-                                    <div class="sphere-container flip-c">
-                                        <div class="sphere-front flip-f">
-                                            <img src="./assets/img/logo-yqosso.svg" alt="logo yqosso">
-                                        </div>
-                                        <a class="sphere-back flip-b"
-                                            href="https://desire.earth" target="_blank">
-                                            <p class="cor-magent f-p">YQOSSO</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- fim dos itens do slide -->
                         </div>
-                        <!-- Se precisarmos de paginação -->
-                        <div class="swiper-pagination"></div>
-    
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-logitech.svg" alt="logo logitech">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://www.logitech.com/pt-br" target="_blank">
+                                        <p class="cor-cian f-p">Logitech</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-santista.svg" alt="logo santista">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://www.santistajeanswear.com.br/"
+                                        target="_blank">
+                                        <p class="cor-cian f-p">Santista</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-rei-de-copas.svg" alt="logo Rei de Copas">
+                                    </div>
+                                    <a class="sphere-back flip-b"
+                                        href="https://enciclopedia.itaucultural.org.br/evento392096/o-rei-de-copas"
+                                        target="_blank">
+                                        <p class="cor-cian f-p">Rei de Copas</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-pokerstars.svg" alt="logo PokerStars">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://www.pokerstars.com/" target="_blank">
+                                        <p class="cor-cian f-p">PokerStars</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-yuzo.svg" alt="logo Yuzo Akahori">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://www.youtube.com/@yuzoakahori7996/videos"
+                                        target="_blank">
+                                        <p class="cor-cian f-p">Yuzo Akahori</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-tuft.svg" alt="logo TUFT">
+                                    </div>
+                                    <div class="sphere-back flip-b">
+                                        <p class="cor-cian f-p">TUFT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-manolo.svg" alt="logo manolo brother">
+                                    </div>
+                                    <div class="sphere-back flip-b">
+                                        <p class="cor-cian f-p">Manolo<br>Brothers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-ale-contini.svg" alt="logo ale contini">
+                                    </div>
+                                    <a class="sphere-back flip-b"
+                                        href="https://www.instagram.com/p/CUgSMsMMY_P/?img_index=1" target="_blank">
+                                        <p class="cor-cian f-p">Ale<br>Contini</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/client-logo-casorio.svg" alt="logo Casório">
+                                    </div>
+                                    <a class="sphere-back flip-b"
+                                        href="https://www.instagram.com/casorio.virtual/?img_index=1" target="_blank">
+                                        <p class="cor-cian f-p">Casório</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-archin.svg" alt="logo ARCHIN">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://desire.earth" target="_blank">
+                                        <p class="cor-magent f-p">ARCHIN</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-ashra.svg" alt="logo ASHRA">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://desire.earth" target="_blank">
+                                        <p class="cor-magent f-p">ASHRA</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-calcadolandia.svg" alt="logo Calçadolandia">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://desire.earth" target="_blank">
+                                        <p class="cor-magent f-p">Calçadolandia</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-desire-fit.svg" alt="logo DESIRE">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://desire.earth" target="_blank">
+                                        <p class="cor-magent f-p">DESIRE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-galaxis.svg" alt="logo Galaxis">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://www.universogalaxis.com.br/"
+                                        target="_blank">
+                                        <p class="cor-magent f-p">Galaxis</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-imo.svg" alt="logo IMO">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://desire.earth" target="_blank">
+                                        <p class="cor-magent f-p">IMO</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-mojuganide.svg" alt="logo Mojuganide">
+                                    </div>
+                                    <a class="sphere-back flip-b"
+                                        href="https://www.amazon.com.br/s?k=%22mojuganide%22&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15TWFQ2RQBG30&sprefix=mojuganide+%2Caps%2C296&ref=nb_sb_noss"
+                                        target="_blank">
+                                        <p class="cor-magent f-p">MOJUGANIDE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-terra.svg" alt="logo TERRA">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://desire.earth" target="_blank">
+                                        <p class="cor-magent f-p">TERRA</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-xpbr.svg" alt="logo Experiência Brasil">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://www.instagram.com/xpbr_uria/"
+                                        target="_blank">
+                                        <p class="cor-magent f-p">Experiência Brasil</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- conteúdo slide -->
+                            <div class="sphere-main flip-m">
+                                <div class="sphere-container flip-c">
+                                    <div class="sphere-front flip-f">
+                                        <img src="./assets/img/logo-yqosso.svg" alt="logo yqosso">
+                                    </div>
+                                    <a class="sphere-back flip-b" href="https://desire.earth" target="_blank">
+                                        <p class="cor-magent f-p">YQOSSO</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fim dos itens do slide -->
                     </div>
-                    <div class="bullets-next"><img src="./assets/img/icon-nd-arrow-next.svg" alt="seta esquerda"></div>
-    
-    
-                </section>
+                    <!-- Se precisarmos de paginação -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+                <div class="bullets-next"><img src="./assets/img/icon-nd-arrow-next.svg" alt="seta esquerda"></div>
+
+
+            </section>
         </section>
         <section class="banner" id="banner_marks">
             <hr class="hr-top-right cor-bg-magent">
@@ -641,7 +634,8 @@
                                     <div class="sphere-front flip-f">
                                         <img src="./assets/img/nd-sticker-1920-yu.webp" alt="Sticker Yuji">
                                     </div>
-                                    <a class="sphere-back flip-b" href="https://www.linkedin.com/in/taira-y%C5%ABji-6440a950/" target="_blank">
+                                    <a class="sphere-back flip-b"
+                                        href="https://www.linkedin.com/in/taira-y%C5%ABji-6440a950/" target="_blank">
                                         <p class="cor-white f-p">Taira Yūji</p>
                                     </a>
                                 </div>
@@ -654,7 +648,8 @@
                                     <div class="sphere-front flip-f">
                                         <img src="./assets/img/nd-sticker-1920-lu.webp" alt="Sticker Luann">
                                     </div>
-                                    <a class="sphere-back flip-b" href="https://www.linkedin.com/in/luanndiegogrigoletto/" target="_blank">
+                                    <a class="sphere-back flip-b"
+                                        href="https://www.linkedin.com/in/luanndiegogrigoletto/" target="_blank">
                                         <p class="cor-white f-p">Luann Grigoletto</p>
                                     </a>
                                 </div>
@@ -667,7 +662,8 @@
                                     <div class="sphere-front flip-f">
                                         <img src="./assets/img/nd-sticker-1920-dula.webp" alt="Sticker Padula">
                                     </div>
-                                    <a class="sphere-back flip-b" href="https://www.linkedin.com/in/paduladiego/" target="_blank">
+                                    <a class="sphere-back flip-b" href="https://www.linkedin.com/in/paduladiego/"
+                                        target="_blank">
                                         <p class="cor-white f-p">Padula, Diego A.</p>
                                     </a>
                                 </div>
@@ -695,13 +691,14 @@
                                     <div class="sphere-front flip-f">
                                         <img src="./assets/img/nd-sticker-1920-al.webp" alt="Sticker Al">
                                     </div>
-                                    <a class="sphere-back flip-b" href="https://www.linkedin.com/in/alberto-rogatto/" target="_blank">
+                                    <a class="sphere-back flip-b" href="https://www.linkedin.com/in/alberto-rogatto/"
+                                        target="_blank">
                                         <p class="cor-white f-p">Alberto Rogatto</p>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                       
+
                         <!-- fim dos itens do slide -->
                     </div>
                     <!-- Se precisarmos de paginação -->
@@ -722,32 +719,35 @@
                     <h2 class="f-title cor-white">CONTATO</h2>
                     <h3 class="f-jp cor-green">連<br>絡</h3>
                 </div>
-                <form action="https://formsubmit.co/hello@newdreams.xyz" method="POST" id="form" class="form" autocomplete="off">
+                <form action="https://formsubmit.co/hello@newdreams.xyz" method="POST" id="form" class="form"
+                    autocomplete="off">
                     <!-- <form id="form" class="form" action="./php/send-email.php" autocomplete="off" method="POST"> -->
-                        <div class="forms-container">
-                            <label for="form-name" id="form-lb-name"><i class="fa-solid fa-user"></i></label>
-                            <input type="text" name="name" id="form-name" placeholder="Nome *" required>
-                            <i class="fas fa-exclamation-circle form-status"></i>
-                            <i class="fas fa-check-circle form-status"></i>
-                            <small class="f-p">O nome é obrigatório</small>
-                        </div>
-                        <div class="forms-container">
-                            <label for="form-email" id="form-lb-mail"><i class="fa-solid fa-envelope"></i></label>
-                            <input type="email" name="email" id="form-email" placeholder="Email *" required>
-                            <i class="fas fa-exclamation-circle form-status"></i>
-                            <i class="fas fa-check-circle form-status"></i>
-                            <small class="f-p">O Email é obrigatório</small>
-                        </div>
-                        <div class="forms-container">
-                            <label for="form-phone" id="form-lb-phone"><i class="fa-solid fa-phone"></i></label>
-                            <input type="tel" name="phone" id="form-phone" placeholder="Telefone * ex +XX XX XXXXX-XXXX" required>
-                            <i class="fas fa-exclamation-circle form-status"></i>
-                            <i class="fas fa-check-circle form-status"></i>
+                    <div class="forms-container">
+                        <label for="form-name" id="form-lb-name"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" name="name" id="form-name" placeholder="Nome *" required>
+                        <i class="fas fa-exclamation-circle form-status"></i>
+                        <i class="fas fa-check-circle form-status"></i>
+                        <small class="f-p">O nome é obrigatório</small>
+                    </div>
+                    <div class="forms-container">
+                        <label for="form-email" id="form-lb-mail"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" name="email" id="form-email" placeholder="Email *" required>
+                        <i class="fas fa-exclamation-circle form-status"></i>
+                        <i class="fas fa-check-circle form-status"></i>
+                        <small class="f-p">O Email é obrigatório</small>
+                    </div>
+                    <div class="forms-container">
+                        <label for="form-phone" id="form-lb-phone"><i class="fa-solid fa-phone"></i></label>
+                        <input type="tel" name="phone" id="form-phone" placeholder="Telefone * ex +XX XX XXXXX-XXXX"
+                            required>
+                        <i class="fas fa-exclamation-circle form-status"></i>
+                        <i class="fas fa-check-circle form-status"></i>
                         <small class="f-p">O telefone é obrigatório modelo +# # #-#</small>
                     </div>
                     <div class="forms-container">
                         <label for="form-message" id="form-lb-message"><i class="fa-solid fa-pencil"></i></label>
-                        <textarea name="message" id="form-message" placeholder="Digite sua mensagem *" required></textarea>
+                        <textarea name="message" id="form-message" placeholder="Digite sua mensagem *"
+                            required></textarea>
                         <i class="fas fa-exclamation-circle form-status"></i>
                         <i class="fas fa-check-circle form-status"></i>
                         <small class="f-p">Sua mensagem é obrigatória</small>
@@ -810,11 +810,11 @@
         </footer>
 
         <!-- Scripsts -->
-         <!-- <script type="module" src="./js/scripts.js"></script> -->
-        <!-- <script src="https://unpkg.com/@uit/glitch-image/dist/glitch-image.js" type="module"></script> -->
+        <!-- <script type="module" src="./js/scripts.js" type="module"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="./js/swiper-config.js"></script>
         <script src="./js/forms.js"></script>
+        <script src="./js/nav.js"></script>
 
 
         <!--
