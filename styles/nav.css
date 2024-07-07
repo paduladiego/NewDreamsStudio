@@ -11,9 +11,6 @@
         display: none;
     }
 }
-/* nav img{
-    height: 50rem;
-} */
 .nav_fixed-top {
     background-color: var(--cor-bg-t8);
     align-items: center;

@@ -10,7 +10,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1000;
-
     & h1 {
         width: 70rem;
 
@@ -30,8 +29,6 @@ main {
     position: absolute;
     left: 0;
     top: 0;
-    /* width: auto; */
-    /* height: 100%; */
     z-index: -1;
     object-fit: cover;
     min-height: 100%;
@@ -45,17 +42,16 @@ main {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-
     & h3 {
         font-size: 4rem;
     }
 }
 
-.home_left {
+.home__left {
     max-width: 5rem;
 }
 
-.home_central {
+.home__central {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,19 +61,18 @@ main {
 
 }
 
-.home_right {
+.home__right {
     display: flex;
     flex-direction: column;
     min-width: 5rem;
     gap: 2rem;
     align-items: flex-end;
-
     & img {
         width: 3rem;
     }
 }
 
-.home-base {
+.home__base {
     display: flex;
     justify-content: flex-start;
 

@@ -86,7 +86,7 @@ const swiperBannerContainer = new Swiper('.swiper-banner-container', {
 	loop: true,
 	slidesPerView: 1,
 	spaceBetween: 0,
-	effect: 'coverflow',
+	effect: 'fade',
 
 	pagination: {
 		el: '.swiper-pagination',

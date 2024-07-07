@@ -9,7 +9,7 @@ const sendProcess = document.getElementById('send-process');
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
     if (checkImputs()) {
-	    sendProcess.className = 'f-p form-success-send';
+	    sendProcess.className = 'is--f-p form-success-send';
 		form.submit(); // Submete o formulário se todas as validações passarem
 	}
 });

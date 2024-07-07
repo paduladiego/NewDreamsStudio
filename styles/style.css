@@ -13,7 +13,6 @@
 @import './marks.css';
 @import './teams.css';
 @import './nav.css';
-/* @import './nav.css'; */
 @import './footer.css';
 @import './forms.css';
 @import './animations.css';
@@ -58,12 +57,12 @@
     font-weight: 300;
     scroll-behavior: smooth;
 }
-.hidden {
+.is--hidden {
     /* display: none; */
     visibility: hidden;
     font-size: 0.1rem;
 }
-.no-display{
+.no--display{
     display: none;
     color: transparent;
 }
@@ -72,92 +71,92 @@ body {
     background-color: var(--cor-bg-1);
 
 }
-.space{
+.is--space{
     flex: 1;
     width: auto;
 }
 /* cores Início */
-.cor-bg-int {
+.is--cor-bg-int {
     background-color: var(--cor-bg-1-in);
 }
 
-.cor-bg1 {
+.is--cor-bg1 {
     background-color: var(--cor-bg-1);
 }
 
-.cor-bg-cian {
+.is--cor-bg-cian {
     background-color: var(--cor-1);
 }
 
-.cor-bg-magent {
+.is--cor-bg-magent {
     background-color: var(--cor-2);
 }
 
-.cor-bg-green {
+.is--cor-bg-green {
     background-color: var(--cor-3);
 }
 
-.cor-cian {
+.is--cor-cian {
     color: var(--cor-1);
 }
 
-.cor-magent {
+.is--cor-magent {
     color: var(--cor-2);
 }
 
-.cor-green {
+.is--cor-green {
     color: var(--cor-3);
 }
-.cor-black {
+.is--cor-black {
     color: var(--cor-7);
 }
-.cor-withe {
+.is--cor-withe {
     color: var(--cor-6);
 }
 
 /* Cores Término */
 
 /* Fontes Início*/
-.f-p {
+.is--f-p {
     font-family: var(--font-paragraph);
 }
 
-.f-jp {
+.is--f-jp {
     font-family: var(--font-japan);
 }
 
-.f-title {
+.is--f-title {
     font-family: var(--font-title);
 }
 
 /* Fontes Término*/
 /* Linhas Início */
-.hr-bottom-right,
-.hr-bottom-left,
-.hr-top-right,
-.hr-top-left {
+.hr__bottom--right,
+.hr__bottom--left,
+.hr__top--right,
+.hr__top--left {
     position: absolute;
     border: none;
     width: 51%;
     height: 0.3rem;
     z-index: 10;
 }
-.hr-bottom-right,
-.hr-bottom-left{
+.hr__bottom--right,
+.hr__bottom--left{
     bottom: 2.5rem;
 }
 
-.hr-top-right,
-.hr-top-left {
+.hr__top--right,
+.hr__top--left {
     top: 2.5rem;
 }
-.hr-top-right, 
-.hr-bottom-right {
+.hr__top--right, 
+.hr__bottom--right {
     right: 0;
 }
 
-.hr-top-left,
-.hr-bottom-left {
+.hr__top--left,
+.hr__bottom--left {
     left: 0;
 }
 
