@@ -3,12 +3,14 @@
     background-image: url(../assets/img/bg-Clients1920c.webp);
     background-color: var(--cor-bg-t5);
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-weight: 400;
-    height: 100vh;
-    min-height: 76.8rem;
+    height: 7.68rem;
+    min-height: 100vh;
     letter-spacing: 0.15rem;
     position: relative;
     width: 100vw;
