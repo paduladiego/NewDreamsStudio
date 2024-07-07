@@ -6,12 +6,13 @@
     max-height: 5rem;
     width: 100%;
     margin-top: -5rem;
-
-    &>a {
-        display: none;
-    }
 }
-.nav_fixed-top {
+
+.nav a img {
+    display: none;
+}
+
+.nav__fixed--top {
     background-color: var(--cor-bg-t8);
     align-items: center;
     display: flex;
@@ -22,26 +23,25 @@
     padding: 0 5.5rem;
     position: fixed;
     width: 100vw;
-    & > a > img{
-        height: 5rem;
-    }
 }
 
-.nav_ul {
+.nav__fixed--top > a > img {
+    height: 5rem;
+}
+
+.nav__ul {
     display: flex;
     gap: 1rem;
-
-    /* font-size: 2rem; */
-    & a {
-        color: var(--cor-1);
-
-        &:hover {
-            color: var(--cor-2);
-        }
-
-        &:active {
-            color: var(--cor-3);
-        }
-    }
 }
 
+.nav__ul a {
+    color: var(--cor-1);
+}
+
+.nav__ul a:hover {
+    color: var(--cor-2);
+}
+
+.nav__ul a:active {
+    color: var(--cor-3);
+}

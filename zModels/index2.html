@@ -53,7 +53,7 @@
             <section class="nav">
                 <h5><span class="is--cor-magent">KABUKICHŌ,</span><span class="is--cor-cian"> SHINJUKU, TŌKYO</span></h5>
                 <nav class="">
-                    <ul class="nav_ul">
+                    <ul class="nav__ul">
                         <li><a href="#about">NEWDREAMS</a></li>
                         <li><a href="#clients">CLIENTES</a></li>
                         <li><a href="#designs">DESIGN</a></li>
@@ -103,7 +103,7 @@
                         class="is--cor-magent">AMS</span><br></h2>
             </div>
         </section>
-        <section class="banner" id="banner_clients">
+        <section class="banner" id="banner__clients">
             <hr class="hr__top--right is--cor-bg-cian">
             <hr class="hr__bottom--right is--cor-bg-magent">
             <!-- Contêiner principal do slider -->
@@ -154,7 +154,7 @@
         <section class="clients bullets" id="clients">
             <hr class="hr__top--left is--cor-bg-cian">
             <hr class="hr__bottom--left is--cor-bg-green">
-            <div class="clients_title titles-top">
+            <div class="clients_title titles--top">
                 <h2 class="is--f-title is--cor-magent">CLIENTES</h2>
                 <h3 class="is--f-jp is--cor-cian">客</h3>
             </div>
@@ -171,13 +171,13 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide"> 
-                        <section class="design-services-in" id="designs">
-                            <div class="design-services_title titles-bottom">
+                        <section class="design-services--in" id="designs">
+                            <div class="design-services__title titles--bottom">
                                 <h2 class="is--f-title is--cor-black">DESIGN</h2>
                                 <h3 class="is--f-jp is--cor-withe">設<br>計</h3>
                             </div>
                             <div class="is--space"></div>
-                            <article class="design-services_article">
+                            <article class="design-services__article">
                                 <h2 class="is--hidden">design</h2>
                                 <p class="is--f-p is--cor-black">O estúdio <span class="is--cor-cian">New</span><span
                                         class="is--cor-magent">Dreams™</span> conta com anos de experiência dos seus diretores nas áreas de
@@ -201,13 +201,13 @@
                         </section>
                     </div>
                     <div class="swiper-slide">
-                        <section class="design-services-in" id="services">
-                            <div class="design-services_title titles-bottom">
+                        <section class="design-services--in" id="services">
+                            <div class="design-services__title titles--bottom">
                                 <h2 class="is--f-title is--cor-black">SERVIÇOS</h2>
                                 <h3 class="is--f-jp is--cor-withe">業<br>務</h3>
                             </div>
                             <div class="is--space"></div>
-                            <article class="design-services_article">
+                            <article class="design-services__article">
                                 <h2 class="is--hidden">serviços</h2>
                                 <p class="is--f-p is--cor-black">O estúdio <span class="is--cor-cian">New</span><span
                                         class="is--cor-magent">Dreams™</span> conta com diversos especialistas para atender suas demandas.</p>
@@ -241,7 +241,7 @@
         <section class="marks bullets" id="marks">
             <hr class="hr__top--left is--cor-bg-cian">
             <hr class="hr__bottom--left is--cor-bg-green">
-            <div class="marks_title titles-top">
+            <div class="marks_title titles--top">
                 <h2 class="is--f-title is--cor-cian">MARCAS</h2>
                 <h3 class="is--f-jp is--cor-magent">烙<br>印</h3>
             </div>
@@ -249,7 +249,7 @@
 
             </div>
         </section>
-        <section class="banner" id="banner_marks" style="background-color: cornflowerblue;">
+        <section class="banner" id="banner__marks" style="background-color: cornflowerblue;">
             <hr class="hr__top--right is--cor-bg-magent">
             <hr class="hr__bottom--right is--cor-bg-green">
             <!-- Contêiner principal do slider -->
@@ -298,7 +298,7 @@
         <section class="teams bullets" id="teams" style="background-color: cadetblue;">
             <hr class="hr__top--left is--cor-bg-cian">
             <hr class="hr__bottom--left is--cor-bg-magent">
-            <div class="teams_title titles-top">
+            <div class="teams_title titles--top">
                 <h2 class="is--f-title is--cor-cian">EQUIPE</h2>
                 <h3 class="is--f-jp is--cor-withe">会<br>社</h3>
             </div>
@@ -314,37 +314,37 @@
                 </div>
 
                 <form action="https://newdreams.xyz/" autocomplete="off" method="post" id="form">
-                    <div class="forms-container">
+                    <div class="forms__container">
                         <label for="name" id="form-lb-name"><i class="fa-solid fa-user"></i></label>
                         <input type="text" name="Nome" id="name" placeholder="Nome *" required>
-                        <i class="fas fa-exclamation-circle form-status"></i>
-                        <i class="fas fa-check-circle form-status"></i>
+                        <i class="fas fa-exclamation-circle forms__status"></i>
+                        <i class="fas fa-check-circle forms__status"></i>
                         <small>Campo obrigatório</small>
                     </div>
-                    <div class="forms-container">
+                    <div class="forms__container">
                         <label for="email" id="form-lb-mail"><i class="fa-solid fa-envelope"></i></label>
                         <input type="email" name="Email" id="email" placeholder="Email *" required>
-                        <i class="fas fa-exclamation-circle form-status"></i>
-                        <i class="fas fa-check-circle form-status"></i>
+                        <i class="fas fa-exclamation-circle forms__status"></i>
+                        <i class="fas fa-check-circle forms__status"></i>
                         <small>Campo obrigatório</small>
                     </div>
-                    <div class="forms-container">
+                    <div class="forms__container">
                         <label for="phone" id="form-lb-phone"><i class="fa-solid fa-phone"></i></label>
                         <input type="tel" name="Telefone" id="phone" placeholder="Telefone *" required>
-                        <i class="fas fa-exclamation-circle form-status"></i>
-                        <i class="fas fa-check-circle form-status"></i>
+                        <i class="fas fa-exclamation-circle forms__status"></i>
+                        <i class="fas fa-check-circle forms__status"></i>
                         <small>Campo obrigatório</small>
                     </div>
-                    <div class="forms-container">
+                    <div class="forms__container">
                         <label for="message" id="form-lb-message"><i class="fa-solid fa-pencil"></i></label>
                         <textarea name="Mensagem" id="message" placeholder="Digite sua mensagem *"
                             required></textarea>
-                        <i class="fas fa-exclamation-circle form-status"></i>
-                        <i class="fas fa-check-circle form-status"></i>
+                        <i class="fas fa-exclamation-circle forms__status"></i>
+                        <i class="fas fa-check-circle forms__status"></i>
                         <small>Campo obrigatório</small>
                     </div>
-                    <div class="form-button">
-                        <button type="submit" class="button-1 is--f-p" id="form-btn">Enviar</button>
+                    <div class="form__button">
+                        <button type="submit" class="is--button-1 is--f-p" id="form-btn">Enviar</button>
                     </div>
 
                 </form>

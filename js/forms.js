@@ -3,13 +3,13 @@ const formName = document.getElementById('form-name');
 const formEmail = document.getElementById('form-email');
 const formPhone = document.getElementById('form-phone');
 const formMessage = document.getElementById('form-message');
-const sendProcess = document.getElementById('send-process');
+const sendProcess = document.getElementById('send__process');
 
 
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
     if (checkImputs()) {
-	    sendProcess.className = 'is--f-p form-success-send';
+	    sendProcess.className = 'is--f-p form__success--send';
 		form.submit(); // Submete o formulário se todas as validações passarem
 	}
 });
@@ -55,12 +55,12 @@ function checkImputs() {
 
 function setErrorFor(input) {
 	const formContainer = input.parentElement;
-	formContainer.className = 'forms-container form-error';
+	formContainer.className = 'forms__container form__error';
 }
 
 function setSuccessFor(input) {
 	const formContainer = input.parentElement;
-	formContainer.className = 'forms-container form-success';
+	formContainer.className = 'forms__container form__success';
 }
 
 function checkEmail(email) {

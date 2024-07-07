@@ -8,7 +8,8 @@ footer {
     overflow-x: hidden;
 
 }
-.footer_form{
+
+.footer_form {
     min-width: 30%;
     padding: 5rem 4rem;
     flex-shrink: 0;
@@ -43,37 +44,39 @@ footer {
 
 }
 
-.footer-social{
+.footer-social {
     display: flex;
     width: auto;
     gap: 1rem;
     padding-bottom: 2.4rem;
 }
-.footer_info h4{
+
+.footer_info h4 {
     font-weight: bold;
     padding-bottom: .7rem;
 }
+
 .footer_info p {
     font-weight: 300;
     padding-bottom: 2rem;
 }
-.footer_info .logo-animado{
+
+.footer_info .logo-animado {
     height: 8rem;
     position: absolute;
     right: 0;
     bottom: calc(50% - 5rem);
     transition: 300ms;
-    translate: 7rem 0;
-
+    transform: translate(7rem);
 }
 
-.logo-animado:hover{
+.logo-animado:hover {
     transition: 300ms;
-    /* height: 10rem; */
     bottom: calc(50% - 5rem);
-    translate: 0 0;
+    transform: translate(0);
 }
-.roll-top  {
+
+.roll-top {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -83,16 +86,28 @@ footer {
     right: 2.5rem;
     bottom: 2rem;
     z-index: 500;
-    /* background-color: var(--cor-bg-t2); */
     border-radius: 1rem;
     opacity: 0.7;
 
-
 }
 
-.roll-top img{
+.roll-top img {
     width: 4.5rem;
     height: 4.5rem;
     opacity: 0.7;
 
+}
+
+.footer__validador {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.footer__validador img {
+    border: 0;
+    width: 8.8rem;
+    height: 3.1rem;
 }

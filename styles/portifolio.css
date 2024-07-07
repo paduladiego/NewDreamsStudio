@@ -1,36 +1,39 @@
 .portifolio {
+    align-items: center;
     background-image: url(../assets/img/bg-Clients1920c.webp);
     background-color: var(--cor-bg-t5);
     background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     flex-direction: column;
-align-items: center;
     font-weight: 400;
-    height: 78.6rem;
-    height: min-content(100vh);
+    height: 100vh;
+    min-height: 76.8rem;
     letter-spacing: 0.15rem;
     position: relative;
     width: 100vw;
     z-index: 0;
 }
 
-a{
+.portifolio p {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+
+}
+
+.portifolio a {
     text-align: center;
 }
-a:hover{
+
+.portifolio a:hover {
     cursor: var(--nd-cursor);
 
 }
-.portifolio_link{
+
+.portifolio__link {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-.portifolio p{
-    padding-top: 2rem;
-    font-size: 2.5rem;
-
 }

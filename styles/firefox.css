@@ -1,0 +1,19 @@
+@-moz-document url-prefix() {
+    main {
+        background-image: url(../assets/img/bg-Home1920c.jpg);
+    }
+
+    .about {
+        background-image: url(../assets/img/bg-About1920c.jpg);
+    }
+
+    .portifolio {
+        background-image: url(../assets/img/bg-Clients1920c.webp);
+    }
+    .marks{
+        background-image: url(../assets/img/bg-Marks1920c.jpg);
+    }
+    .teams{
+        background-image: url(../assets/img/bg-Teams1920c.jpg);
+    }
+}

@@ -16,6 +16,7 @@
 @import './footer.css';
 @import './forms.css';
 @import './animations.css';
+@import './firefox.css';
 
 :root {
     /* Colors */

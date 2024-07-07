@@ -13,7 +13,7 @@
 }
 .sphere-main p {
     font-size: 3rem;
-    animation: neon 1.8s ease-in-out infinite;
+    animation: is--neon 1.8s ease-in-out infinite;
     text-align: center;
     line-height: 150%;
 }

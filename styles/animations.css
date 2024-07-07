@@ -1,28 +1,25 @@
 /* Animations Start */
-.neon{
+.is--neon{
     animation: neon 2s ease-in-out infinite;
 
 }
-.appear4{
+.is--appear4{
     visibility: hidden;
     opacity: 0;
     animation: appear 1s ease-in forwards;
-    animation-timeline: scroll();
-    animation-range-start: cover 4%;
-    /* animation-range-start: cover calc(100vh - 5%); */
 }
 /* Animations End */
 /* Animations FlipY Start */
 
-.flip-m {
+.is--flip-m {
     position: relative;
 }
-.flip-m:hover .flip-c {
+.is--flip-m:hover .is--flip-c {
     transform: rotateY(180deg);
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
-.flip-c {
+.is--flip-c {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -30,15 +27,15 @@
     transform-style: preserve-3d;
     transition: .5s;
 }
-.flip-f,
-.flip-b {
+.is--flip-f,
+.is--flip-b {
     position: absolute;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     width: 100%;
     height: 100%;
 }
-.flip-b {
+.is--flip-b {
     transform: rotateY(180deg);
 }
 /* Animations End */

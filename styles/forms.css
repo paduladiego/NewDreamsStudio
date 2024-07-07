@@ -1,4 +1,4 @@
-.forms-container{
+.forms__container{
     width: 100%;
     border-top: solid 0.2rem var(--cor-bg-t5w );
     padding: 2rem 0;
@@ -6,37 +6,37 @@
     position: relative;
     
 }
-.forms-container label .fa-pencil{
+.forms__container label .fa-pencil{
     vertical-align: top;
     padding-top: 1rem;
 }
-.forms-container i {
+.forms__container i {
     font-size: 1.4rem;
 }
-.forms-container .form-status {
+.forms__container .forms__status {
     position: absolute;
     left: 95%;
     top: 3rem;
     visibility: hidden;
 }
-.forms-container input,
-.forms-container textarea{
+.forms__container input,
+.forms__container textarea{
     background-color: transparent;
     border: none;
     width: 90%;
     color: var(--cor-6);
     padding: .5rem 0 .5rem 1rem;
 }
-.forms-container input::placeholder,
-.forms-container textarea::placeholder{
+.forms__container input::placeholder,
+.forms__container textarea::placeholder{
     color: var(--cor-6);
 }
-.forms-container input:focus,
-.forms-container textarea:focus {
+.forms__container input:focus,
+.forms__container textarea:focus {
     border: none;
     outline: 0;
 }
-.forms-container small{
+.forms__container small{
     font-size: 1rem;
     position: absolute;
     left: 0;
@@ -44,45 +44,45 @@
     visibility: hidden;
     /* margin-top: 1.5rem; */
 }
-.form-button{
+.form__button{
     width: 100%;
     text-align: center;
 }
-.button-1{
+.is--button-1{
     background: none;
     width: 100%;
     border: 0;
     color: var(--cor-6);
 }
-.button-1:hover{
+.is--button-1:hover{
     font-weight: bold;
     color: var(--cor-2);
 }
-.button-1:active{
+.is--button-1:active{
     font-weight: bold;
     color: var(--cor-3);
 }
 /* error and success */
-/* .form-error, */
-.form-error i,
-.form-error > small{
+/* .form__error, */
+.form__error i,
+.form__error > small{
     color:var(--cor-2);
 }
 
-.form-success i {
+.form__success i {
     color: var(--cor-3);
 }
-.form-success i.fa-check-circle,
-.form-error i.fa-exclamation-circle,
-.form-error > small{
+.form__success i.fa-check-circle,
+.form__error i.fa-exclamation-circle,
+.form__error > small{
     visibility: visible;
 
 }
-#send-process.form-success{
+#send__process.form__success{
  visibility: hidden;    
 }
 
-#send-process.form-success-send{
+#send__process.form__success--send{
  visibility: visible;
  color: var(--cor-3);
 }
