@@ -179,6 +179,10 @@ button {
 
 /* xxxxxxxxxx Término*/
 /* xxxxxxxxxx Início*/
+.is--800px{
+    display: none;
+}
+
 @media (min-width: 2880px) {
     :root {
         font-size: 125% !important;
@@ -205,10 +209,11 @@ button {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
     :root {
         font-size: 30% !important;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -229,9 +234,31 @@ button {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
     :root {
         font-size: 18% !important;
+    }
+    .about{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 5rem;
+        min-height: 65vh !important;
+
+    }
+    .about__article,
+    .about__title{
+        width: 80%;
+    }
+    .about__title{
+        margin-right: 10.5rem !important;
+    }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
+    }
+    .portifolio{
+        min-height: 65vh !important;
+
     }
 }
 

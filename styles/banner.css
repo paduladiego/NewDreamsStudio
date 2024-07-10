@@ -17,6 +17,8 @@
 
 .banner img {
     width: 100vw;
+    margin-bottom: -0.2rem;
+
 }
 
 section.bullets .swiper-pagination-bullet,
@@ -70,7 +72,6 @@ div#swiper-button-prev-designer-services:hover,
 div#swiper-button-prev-marks:hover,
 div#swiper-button-prev-clients:hover {
     cursor: url(../assets/img/icon-nd-arrow-prev.svg), auto !important;
-    /* rotate: 90deg; */
 
 }
 

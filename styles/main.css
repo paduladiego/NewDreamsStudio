@@ -26,7 +26,7 @@ main h2 {
     line-height: 150%;
 }
 
-.background-video {
+main .background-video {
     position: absolute;
     left: 0;
     top: 0;
