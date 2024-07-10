@@ -220,17 +220,29 @@ button {
     :root {
         font-size: 25% !important;
     }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
+    }
 }
 
 @media (max-width: 545px) {
     :root {
         font-size: 22% !important;
     }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
+    }
 }
 
 @media (max-width: 480px) {
     :root {
         font-size: 20% !important;
+    }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
     }
 }
 

@@ -1,16 +1,16 @@
 .design-services {
     height: 76.8rem;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100vw;
     position: relative;
     z-index: 0;
-
+    min-height: fit-content
 }
 
 .design-services--in {
     position: relative;
     height: 78.6rem;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: auto;
     background-image: url(../assets/img/bg_Design-Services1200c.svg);
     background-color: var(--cor-bg-2);
@@ -18,6 +18,7 @@
     background-size: contain;
     background-position: top left;
     display: flex;
+    min-height: fit-content
 }
 
 .design-services__article {
