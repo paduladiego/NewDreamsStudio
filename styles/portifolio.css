@@ -27,11 +27,6 @@
     text-align: center;
 }
 
-.portifolio a:hover {
-    cursor: var(--nd-cursor);
-
-}
-
 .portifolio__link {
     display: flex;
     flex-direction: column;

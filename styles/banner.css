@@ -6,14 +6,40 @@
 
 }
 
+/* deslizar esquerda */
 .banner h5 {
     position: absolute;
     bottom: 5rem;
     left: 15rem;
     font-size: 1.8rem;
     font-weight: 300;
-
+    /* deslizar esquerda */
+    background-color: var(--cor-bg-t8);
+    border-radius: 0 2rem 2rem 0;
+    padding: 2rem 2rem 2rem 16rem;
+    margin-left: -16rem;
+    transform: translate(-100%);
+    transition: 400ms;
+    border: .2rem solid;
+    border-color: var(--cor-5);
 }
+
+/* deslizar cima */
+/* .banner h5 {
+     position: absolute;
+     bottom: 5rem;
+     left: 17rem;
+     font-size: 1.8rem;
+     font-weight: 300;
+     background-color: var(--cor-bg-t8);
+     border-radius: 2rem 2rem 0 0;
+     padding: 2rem 2rem 2rem 2rem;
+     margin-bottom: -6rem;
+     transform: translate(0, 100%);
+     transition: 400ms;
+     border: .2rem solid;
+     border-color: var(--cor-5);
+ } */
 
 .banner img {
     width: 100vw;
@@ -31,14 +57,17 @@ section.design-services .swiper-pagination-bullet {
     height: 1rem;
 
 }
+
 /* cor da paginação do bullet */
 section.design-services .swiper-pagination-bullet,
 section.bullets .swiper-pagination-bullet {
     background-color: var(--cor-1);
 }
-#design-services .swiper-pagination-bullet{
+
+#design-services .swiper-pagination-bullet {
     background-color: var(--cor-7);
 }
+
 /* cor da paginação do bullet */
 /* cor da paginação do bullet */
 
@@ -64,14 +93,17 @@ div#swiper-button-prev-marks {
 div#swiper-button-next-designer-services:hover,
 div#swiper-button-next-marks:hover,
 div#swiper-button-next-clients:hover {
-    cursor: url(../assets/img/icon-nd-arrow-next.svg), auto !important;
+    cursor: var(--nd-cursor-next), auto !important;
 
 }
 
 div#swiper-button-prev-designer-services:hover,
 div#swiper-button-prev-marks:hover,
 div#swiper-button-prev-clients:hover {
-    cursor: url(../assets/img/icon-nd-arrow-prev.svg), auto !important;
+    cursor: var(--nd-cursor-prev), auto !important;
 
 }
 
+.swiper-slide>img {
+    cursor: grab;
+}

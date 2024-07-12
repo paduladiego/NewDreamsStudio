@@ -8,7 +8,7 @@ body {
 
 }
 .sphere-main a {
-    cursor: var(--nd-cursor);
+    cursor: var(--nd-cursor-link);
 }
 .sphere-main p {
     font-size: 3rem;
