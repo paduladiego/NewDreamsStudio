@@ -1,0 +1,98 @@
+/* START SPHERE */
+.cursor,
+.sphere-main,
+.sphere-main a,
+.sphere-main a img,
+.sphere-main p,
+.sphere-front,
+.sphere-back,
+.swiper-pagination-bullet {
+	cursor: $nd-cursor-link !important;
+}
+.sphere-main {
+    width: $sphere-xy;
+	height: $sphere-xy;
+	border-radius: 50%;
+	a {
+		z-index: 99999;
+	}
+    p {
+        font-size: 3rem;
+        animation: is--neon 1.8s ease-in-out infinite;
+        text-align: center;
+        line-height: 150%;
+    }
+    img {
+        min-width: $sphere-in;
+        min-height: $sphere-in;
+        max-width: $sphere-in;
+        max-height: $sphere-in;
+    }
+}
+
+.sphere-front,
+.sphere-back {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+/* SPHERE END */
+
+.bullets {
+	display: flex;
+	position: relative;
+	height: 76.8rem;
+	width: 100vw;
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#swiperBulletsClients,
+#swiperBulletsMarks,
+#swiperBulletsTeams {
+	min-height: 76.8rem;
+	display: flex;
+	align-items: center;
+}
+
+.bullets_logos {
+	position: relative;
+	flex: 1;
+	width: auto;
+	min-height: 100%;
+	max-width: 80%;
+	display: flex;
+	align-items: center;
+}
+
+#swiper-button-prev-bullets {
+	content: $nd-cursor-prev, auto !important;
+}
+
+div.bullets-prev,
+div.bullets-next {
+	display: flex;
+	padding: 0 5%;
+	height: 100%;
+	min-height: 70rem;
+	img {
+		width: 2rem;
+	}
+}
+
+div#swiper-button-prev-bullets,
+div#swiper-button-next-bullets {
+	color: transparent;
+}
+
+div.bullets-next:hover {
+	cursor: $nd-cursor-next, auto !important;
+}
+
+div.bullets-prev:hover {
+	cursor: $nd-cursor-prev, auto !important;
+}

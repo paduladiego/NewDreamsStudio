@@ -1,0 +1,41 @@
+.nav {
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	min-height: 5rem;
+	max-height: 5rem;
+	width: 100%;
+	margin-top: -5rem;
+	a img {
+		display: none;
+	}
+	&__fixed--top {
+		background-color: $cor-bg-t8;
+		align-items: center;
+		display: flex;
+		height: 8rem;
+		justify-content: space-between;
+		left: 0;
+		top: 0;
+		padding: 0 5.75rem;
+		position: fixed;
+		width: 100vw;
+	}
+	& > a > img {
+		height: 5rem;
+	}
+}
+
+.nav__ul {
+	display: flex;
+	gap: 1rem;
+	a {
+		color: $cor-1;
+		&:hover {
+			color: $cor-2; 
+		}
+        &:active {
+            color: $cor-3;
+        }
+	}
+}

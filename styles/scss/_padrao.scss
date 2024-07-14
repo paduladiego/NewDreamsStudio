@@ -1,0 +1,119 @@
+button,
+a {
+    cursor: $nd-cursor-link !important;
+}
+.is--hidden {
+    visibility: hidden;
+    font-size: 0.1rem;
+}
+
+.no--display {
+    display: none;
+    color: transparent;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: $cor-bg-1;
+
+}
+// Principais Início
+
+.is--space {
+    flex: 1;
+    width: auto;
+}
+
+// Principais Término
+
+
+// cores Início 
+.is--cor-bg-int {
+    background-color: $cor-bg-1-in;
+}
+
+.is--cor-bg1 {
+    background-color: $cor-bg-1;
+}
+
+.is--cor-bg-cian {
+    background-color: $cor-1;
+}
+
+.is--cor-bg-magent {
+    background-color: $cor-2;
+}
+
+.is--cor-bg-green {
+    background-color: $cor-3;
+}
+
+.is--cor-cian {
+    color: $cor-1;
+}
+
+.is--cor-magent {
+    color: $cor-2;
+}
+
+.is--cor-green {
+    color: $cor-3;
+}
+
+.is--cor-black {
+    color: $cor-7;
+}
+
+.is--cor-withe {
+    color: $cor-6;
+}
+
+// Cores Término 
+
+// Fontes Início
+.is--f-p {
+    font-family: $font-paragraph !important;
+}
+
+.is--f-jp {
+    font-family: $font-japan !important;
+}
+
+.is--f-title {
+    font-family: $font-title !important;
+}
+
+// Fontes Término
+//  Linhas Início 
+.hr__bottom--right,
+.hr__bottom--left,
+.hr__top--right,
+.hr__top--left {
+    position: absolute;
+    border: none;
+    width: 51%;
+    height: 0.3rem;
+    z-index: 10;
+}
+
+.hr__bottom--right,
+.hr__bottom--left {
+    bottom: 2.5rem;
+}
+
+.hr__top--right,
+.hr__top--left {
+    top: 2.5rem;
+}
+
+.hr__top--right,
+.hr__bottom--right {
+    right: 0;
+}
+
+.hr__top--left,
+.hr__bottom--left {
+    left: 0;
+}
+
+// Linhas Término

@@ -47,11 +47,13 @@
     --sphere-xy: 25rem;
     --sphere-in: 20rem;
     /* cursores */
-    --nd-cursor-link: url(../assets/img/icon-nd-arrow-45deg.svg), auto;
+    --nd-cursor-link: url(../assets/img/icon-nd-cursor.svg), auto;
     --nd-cursor-prev: url(../assets/img/icon-nd-arrow-prev.svg);
     --nd-cursor-next: url(../assets/img/icon-nd-arrow-next.svg);
     --nd-cursor-prev-g: url(../assets/img/icon-nd-arrow-prev-glitch.svg);
     --nd-cursor-next-g: url(../assets/img/icon-nd-arrow-next-glitch.svg);
+    --nd-cursor-grab: url(../assets/img/icon-grab.svg), auto;
+    --nd-cursor-pointer: url(../assets/img/icon-pointer.svg), auto;
 }
 
 * {
@@ -61,8 +63,9 @@
     font-weight: 300;
     scroll-behavior: smooth;
 }
-a{
-    cursor: var(--nd-cursor-link);
+button,
+a {
+    cursor: var(--nd-cursor-link) !important;
 }
 .is--hidden {
     /* display: none; */
@@ -81,10 +84,7 @@ body {
 
 }
 /* Principais Início*/
-button,
-a {
-    cursor: var(--nd-cursor-link) !important;
-}
+
 .is--space {
     flex: 1;
     width: auto;

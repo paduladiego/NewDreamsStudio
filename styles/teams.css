@@ -3,3 +3,9 @@
     background-color: var(--cor-bg-t5w);
     /* background-position: center; */
 }
+
+.teams p {
+    text-transform: uppercase;
+    font-size: 2rem !important;
+}
+

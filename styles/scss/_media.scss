@@ -1,0 +1,104 @@
+/* medias Início*/
+.is--800px{
+    display: none;
+}
+
+@media (min-width: 2880px) {
+    :root {
+        font-size: 125% !important;
+
+    }
+}
+
+
+@media (max-width: 1400px) {
+    :root {
+        font-size: 60% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    :root {
+        font-size: 50% !important;
+    }
+}
+
+@media (max-width: 900px) {
+    :root {
+        font-size: 40% !important;
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 30% !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+    :root {
+        font-size: 25% !important;
+    }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
+    }
+}
+
+@media (max-width: 545px) {
+    :root {
+        font-size: 22% !important;
+    }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 20% !important;
+    }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
+    }
+}
+
+@media (max-width: 420px) {
+    :root {
+        font-size: 18% !important;
+    }
+    .about{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 5rem;
+        min-height: 65vh !important;
+
+    }
+    .about__article,
+    .about__title{
+        width: 80%;
+    }
+    .about__title{
+        margin-right: 10.5rem !important;
+    }
+    .design-services--in,
+    .design-services{
+        min-height: fit-content !important;
+    }
+    .portifolio{
+        min-height: 65vh !important;
+
+    }
+}
+
+
+
+
+
+
+/* xxxxxxxxxx Término*/
+/* xxxxxxxxxx Início*/
+/* xxxxxxxxxx Término*/

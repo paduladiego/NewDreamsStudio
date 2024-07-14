@@ -19,3 +19,7 @@
 #banner__marks a {
     z-index: 2;
 }
+
+.marks_logos p {
+    text-transform: uppercase;
+}

@@ -1,0 +1,101 @@
+@import './variaveis';
+.banner {
+	position: relative;
+	width: 100vw;
+	height: auto;
+	z-index: 0;
+	//deslizar esquerda
+	h5 {
+		position: absolute;
+		bottom: 5rem;
+		left: 15rem;
+		font-size: 1.8rem;
+		font-weight: 300;
+		background-color: $cor-bg-t8;
+		border-radius: 0 2rem 2rem 0;
+		padding: 2rem 2rem 2rem 16rem;
+		margin-left: -16rem;
+		transform: translate(-100%);
+		transition: 400ms;
+		border: 0.2rem solid;
+		border-color: $cor-5;
+	}
+	// deslizar cima
+	// h5 {
+	//      position: absolute;
+	//      bottom: 5rem;
+	//      left: 17rem;
+	//      font-size: 1.8rem;
+	//      font-weight: 300;
+	//      background-color: $cor-bg-t8;
+	//      border-radius: 2rem 2rem 0 0;
+	//      padding: 2rem 2rem 2rem 2rem;
+	//      margin-bottom: -6rem;
+	//      transform: translate(0, 100%);
+	//      transition: 400ms;
+	//      border: .2rem solid;
+	//      border-color: $cor-5;
+	//  }
+    img {
+        width: 100vw;
+        margin-bottom: -0.2rem;
+    }
+}
+
+section.bullets .swiper-pagination-bullet,
+section.banner .swiper-pagination-bullet,
+section.design-services .swiper-pagination-bullet {
+	border-radius: 0;
+	background-color: $cor-3;
+	opacity: 0.6;
+	width: 1rem;
+	height: 1rem;
+}
+
+/* cor da paginação do bullet */
+section.design-services .swiper-pagination-bullet,
+section.bullets .swiper-pagination-bullet {
+	background-color: $cor-1;
+}
+
+#design-services .swiper-pagination-bullet {
+	background-color: $cor-7;
+}
+
+/* cor da paginação do bullet */
+/* cor da paginação do bullet */
+
+section.bullets .swiper-pagination-bullet-active,
+section.banner .swiper-pagination-bullet-active,
+section.design-services .swiper-pagination-bullet-active {
+	opacity: 1;
+}
+
+div#swiper-button-next-designer-services,
+div#swiper-button-prev-designer-services,
+div#swiper-button-next-clients,
+div#swiper-button-prev-clients,
+div#swiper-button-next-marks,
+div#swiper-button-prev-marks {
+	position: absolute;
+	top: 2.5rem;
+	width: 15%;
+	height: 100%;
+	color: transparent;
+}
+
+div#swiper-button-next-designer-services:hover,
+div#swiper-button-next-marks:hover,
+div#swiper-button-next-clients:hover {
+	cursor: $nd-cursor-next, auto !important;
+}
+
+div#swiper-button-prev-designer-services:hover,
+div#swiper-button-prev-marks:hover,
+div#swiper-button-prev-clients:hover {
+	cursor: $nd-cursor-prev, auto !important;
+}
+
+.swiper-slide > img {
+	cursor: grab;
+}

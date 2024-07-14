@@ -1,0 +1,54 @@
+.titles {
+	&--top,
+	&--bottom {
+		display: flex;
+		min-width: 25rem;
+		height: 100%;
+		justify-content: flex-end;
+		position: relative;
+		h2 {
+			font-size: 9.6rem;
+			writing-mode: vertical-rl;
+			transform: rotate(180deg);
+		}
+		h3 {
+			font-size: 5rem;
+			position: absolute;
+		}
+	}
+	&--top {
+		padding-right: 5rem;
+		padding-top: 10rem;
+		align-items: flex-start;
+		h3 {
+			top: 8.7rem;
+			margin-right: -1.95rem;
+		}
+	}
+	&--bottom {
+		padding-right: 5rem;
+		padding-bottom: 10rem;
+		h3 {
+			margin-right: -2.3rem;
+		}
+	}
+	&--center {
+		display: flex;
+		align-items: end;
+		h2 {
+			font-size: 16rem;
+		}
+		h3 {
+			font-size: 5rem;
+			margin-bottom: 5rem;
+			margin-left: -3.3rem;
+		}
+	}
+}
+
+#designs h3 {
+	bottom: 27rem;
+}
+#services h3 {
+	bottom: 38rem;
+}

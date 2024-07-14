@@ -1,0 +1,71 @@
+main {
+	height: 76.8rem;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 8rem 3.5vw 3rem 3.5vw;
+	position: relative;
+	background-image: url(../assets/img/bg-Home1920c.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1000;
+	h1 {
+		width: 70rem;
+		img {
+			width: 100%;
+		}
+	}
+	h2 {
+		text-align: center;
+		font-size: 2rem;
+		line-height: 150%;
+	}
+	.background-video {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		object-fit: cover;
+		min-height: 100%;
+		width: 100%;
+	}
+}
+
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	h3 {
+		font-size: 4rem;
+	}
+	&__left {
+		max-width: 5rem;
+	}
+	&__central {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		gap: 3rem;
+	}
+	&__right {
+		display: flex;
+		flex-direction: column;
+		min-width: 5rem;
+		gap: 2rem;
+		align-items: flex-end;
+        img {
+            width: 3rem;
+        }
+	}
+    &__base {
+        display: flex;
+        justify-content: flex-start;
+        h4 {
+            padding-left: 10rem;
+        }
+    }
+}

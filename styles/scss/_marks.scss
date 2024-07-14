@@ -1,0 +1,24 @@
+.marks {
+	background-image: url(../assets/img/bg-Marks1920c.webp);
+	background-color: var(--cor-bg-t5w);
+	background-position: center;
+}
+
+#banner__marks {
+	.background-video {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		object-fit: cover;
+		height: auto;
+		width: 100%;
+	}
+	h5,
+	a {
+		z-index: 2;
+	}
+    .marks_logos p {
+        text-transform: uppercase;
+    }
+}

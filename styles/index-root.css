@@ -1,0 +1,32 @@
+:root{
+        /* Colors */
+        --cor-1: #00D4FF;
+        --cor-2: #FF245C;
+        --cor-3: #14aa37;
+        --cor-t3: #14aa371c;
+        --cor-4: #FF17B7;
+        --cor-5: #8C008C;
+        --cor-6: #FFFFFF;
+        --cor-7: #000000;
+        --cor-bg-1: #000000;
+        --cor-bg-1-in: #1A1B1D;
+        --cor-bg-2: #FFFFFF;
+        --cor-bg-t2: rgba(0, 0, 0, 0.2);
+        --cor-bg-t5: rgba(0, 0, 0, 0.5);
+        --cor-bg-t5w: rgba(255, 255, 255, 0.5);
+        --cor-bg-t8: rgba(0, 0, 0, 0.8);
+        --cor-text-1: #FFFFFF;
+        --cor-text-2: #000000;
+    font-size: 62.5%;
+    --font-title: 'Rodchenko', sans-serif;
+    --font-paragraph: 'MuseoSans', sans-serif;
+}
+
+
+* {
+    font-size: 1.6rem;
+    color: var(--cor-text-1);
+    font-family: var(--font-paragraph);
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
